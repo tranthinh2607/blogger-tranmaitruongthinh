@@ -1,0 +1,555 @@
+  <!-- Trang 1 -->
+  <div class="blog-page" id="page1">
+    <div class="blog-posts-grid">
+      <!-- 5 bài viết -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js1.png" alt="JavaScript Programming" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="JavaScript Programming Essentials.html">JavaScript Programming Essentials</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 1, 2025 </li>
+          </ul>
+          <p>Học JavaScript từ cơ bản đến nâng cao với các khái niệm quan trọng như variables, functions, objects và ES6+ features.</p>
+          <a href="JavaScript Programming Essentials.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 2 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js2.png" alt="Java Programming" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="Java Object-Oriented Programming.html">Java Object-Oriented Programming</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Tìm hiểu về OOP trong Java: Classes, Objects, Inheritance, Polymorphism và Encapsulation.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 3 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js3.png" alt="JavaScript DOM" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript DOM Manipulation</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 3, 2025 </li>
+          </ul>
+          <p>Học cách tương tác với DOM, thao tác elements, events và tạo dynamic web pages.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 4 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js4.png" alt="Java Collections" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Collections Framework</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Khám phá ArrayList, HashMap, LinkedList và các collection classes trong Java.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 5 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js5.png" alt="JavaScript Async" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Async Programming</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 5, 2025 </li>
+          </ul>
+          <p>Tìm hiểu về Promises, Async/Await, Callbacks và xử lý bất đồng bộ trong JavaScript.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 6 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js1a.png" alt="Java Collections" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Mastery: Essentials</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Học JavaScript từ cơ bản đến nâng cao với các khái niệm quan trọng như variables, functions, objects và ES6+ features.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- Trang 2 -->
+  <div class="blog-page" id="page2" style="display:none;">
+    <div class="blog-posts-grid">
+
+      <!-- 5 bài viết -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js2a.png" alt="Java Exception Handling" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Exception Handling</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 1, 2025 </li>
+          </ul>
+          <p>Học cách xử lý lỗi trong Java với try-catch blocks, custom exceptions và best practices.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 2 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js3a.png" alt="JavaScript ES6+" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript ES6+ Features</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Khám phá các tính năng mới trong ES6+: Arrow functions, Destructuring, Modules và Template literals.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 3 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js4a.png" alt="Java Multithreading" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Multithreading</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 3, 2025 </li>
+          </ul>
+          <p>Tìm hiểu về Thread, Runnable interface, Synchronization và Concurrent programming trong Java.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 4 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js5a.png" alt="JavaScript API" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript API Integration</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Học cách tích hợp REST APIs, fetch API, và xử lý JSON data trong JavaScript.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 5 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js6a.png" alt="Java Spring" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Spring Framework</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 5, 2025 </li>
+          </ul>
+          <p>Giới thiệu Spring Framework: Dependency Injection, Spring Boot và RESTful web services.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 6 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js27.png" alt="Java Programming" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Design Patterns in Java</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Học các design patterns quan trọng: Singleton, Factory, Observer và MVC pattern.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>     
+
+    </div>
+  </div>
+
+  <!-- Trang 3 -->
+  <div class="blog-page" id="page3" style="display:none;">
+    <div class="blog-posts-grid">
+
+      <!-- 5 bài viết -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js10.png" alt="JavaScript React" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript React Framework</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 1, 2025 </li>
+          </ul>
+          <p>Học React từ cơ bản: Components, Props, State, Hooks và JSX syntax.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 2 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js11.png" alt="Java Database" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Database Connectivity</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Tìm hiểu JDBC, kết nối database, PreparedStatement và Connection pooling.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 3 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js12.png" alt="JavaScript Node.js" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Node.js Backend</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 3, 2025 </li>
+          </ul>
+          <p>Xây dựng backend với Node.js, Express.js, middleware và RESTful APIs.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 4 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js13.png" alt="Java Design Patterns" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Design Patterns</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Học các design patterns quan trọng: Singleton, Factory, Observer và MVC pattern.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 5 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js14.png" alt="JavaScript Testing" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Testing With Jest</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 5, 2025 </li>
+          </ul>
+          <p>Viết unit tests, integration tests và test-driven development với Jest framework.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+      
+      <!-- Bài viết 6 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js15.png" alt="Java Programming" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Asynchronous JavaScript: Promises & Async/Await</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Tìm hiểu về Promises, Async/Await, Callbacks và xử lý bất đồng bộ trong JavaScript.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- Trang 4 -->
+  <div class="blog-page" id="page4" style="display:none;">
+    <div class="blog-posts-grid">
+
+      <!-- 5 bài viết -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js16.png" alt="Java Maven" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Maven Build Tool</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 1, 2025 </li>
+          </ul>
+          <p>Quản lý dependencies, build projects và lifecycle management với Apache Maven.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 2 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js17.png" alt="JavaScript Webpack" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Webpack Module Bundler</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Bundle JavaScript modules, optimize assets và setup development environment với Webpack.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 3 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js18.png" alt="Java JUnit" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java JUnit Testing</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 3, 2025 </li>
+          </ul>
+          <p>Viết unit tests, assertions, test cases và mocking với JUnit framework.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 4 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js19.png" alt="JavaScript TypeScript" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript TypeScript</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Thêm type safety cho JavaScript với TypeScript: interfaces, generics và advanced types.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 5 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js20.png" alt="Java Microservices" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Microservices Architecture</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 5, 2025 </li>
+          </ul>
+          <p>Xây dựng microservices với Spring Cloud, service discovery và API gateway.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 6 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js21.png" alt="Java Programming" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Error Handling in Java</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Học cách xử lý lỗi trong Java với try-catch blocks, custom exceptions và best practices.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- Trang 5 -->
+  <div class="blog-page" id="page5" style="display:none;">
+    <div class="blog-posts-grid">
+
+      <!-- 5 bài viết -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js22.png" alt="JavaScript Vue.js" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Vue.js Framework</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 1, 2025 </li>
+          </ul>
+          <p>Học Vue.js: reactive data binding, components, directives và Vue CLI.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 2 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js23.png" alt="Java Spring Security" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Spring Security</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 2, 2025 </li>
+          </ul>
+          <p>Bảo mật ứng dụng với Spring Security: authentication, authorization và JWT.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 3 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js24.png" alt="JavaScript Performance" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Performance Optimization</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 3, 2025 </li>
+          </ul>
+          <p>Tối ưu hóa performance: lazy loading, code splitting, caching và profiling tools.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 4 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js25.png" alt="Java Docker" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">Java Docker Containerization</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 4, 2025 </li>
+          </ul>
+          <p>Containerize Java applications với Docker: Dockerfile, images và container orchestration.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Bài viết 5 -->
+      <article class="blog-post mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="blog-post-thumb mb-3">
+          <img src="images/blog/js26.png" alt="JavaScript Full-Stack" class="img-fluid" />
+        </div>
+        <div class="blog-post-content">
+          <h3><a href="single-blog.html">JavaScript Full-Stack Development</a></h3>
+          <ul class="list-inline text-muted small">
+            <li class="list-inline-item">By <a href="about.html">TRAN THINH</a></li>
+            <li class="list-inline-item"><i class="fa fa-clock-o"></i> Jan 5, 2025 </li>
+          </ul>
+          <p>Xây dựng full-stack applications với MEAN/MERN stack và modern development tools.</p>
+          <a href="single-blog.html">Read More <i class="fa fa-angle-right"></i></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+
+
+<ul style="list-style:none; display:flex; gap:10px; padding:0; margin:0;">
+              <li>
+                <a href="https://www.facebook.com/tmtthinh204/" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#3b5998; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa-brands fa-facebook"></i>&nbsp; Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#0056d2; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa fa-graduation-cap"></i>&nbsp; Coursera
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#e4405f; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa-brands fa-instagram"></i>&nbsp; Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#0077b5; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa-brands fa-linkedin"></i>&nbsp; LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#ff0000; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa-brands fa-youtube-play"></i>&nbsp; YouTube
+                </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@kelvintran26704" target="_blank"
+                  style="display:inline-flex; align-items:center; justify-content:center;
+                          width:100px; height:36px; background:#000; color:#fff;
+                          text-decoration:none; font-size:16px; border-radius:6px;">
+                  <i class="fa-brands fa-tiktok"></i>&nbsp; TikTok
+                </a>
+              </li>
+</ul>
+
+
+AKfycbwqybFNH_6T9SMvlcAEN8BXvRhP8fgFe5NkAo_RnZjDHUk7sBuoy1J62Ht0BKcVv8Ij
+
+https://script.google.com/macros/s/AKfycbwqybFNH_6T9SMvlcAEN8BXvRhP8fgFe5NkAo_RnZjDHUk7sBuoy1J62Ht0BKcVv8Ij/exec

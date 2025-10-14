@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">JavaScript API Integration</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2025
+            </li>
+          </ul>
+
+          <img src="images/blog/js-api-banner.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng ảnh minh họa "JavaScript fetch API flow" hoặc "REST API integration diagram" -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            Trong thế giới web hiện đại, hầu hết các ứng dụng đều cần trao đổi dữ liệu với máy chủ hoặc dịch vụ khác thông qua API.  
+            <strong>JavaScript API Integration</strong> chính là kỹ năng giúp bạn “nối cầu” giữa giao diện người dùng và dữ liệu thật.  
+            <br><br>
+            Bằng cách sử dụng <strong>Fetch API</strong>, <strong>RESTful APIs</strong> và thao tác với <strong>JSON data</strong>, bạn có thể xây dựng ứng dụng động – 
+            hiển thị dữ liệu thời gian thực, tạo tương tác mượt mà và cá nhân hóa trải nghiệm người dùng.
+          </p>
+
+          <h3>1. REST API là gì?</h3>
+          <p>
+            REST (Representational State Transfer) là tiêu chuẩn phổ biến nhất để thiết kế API.  
+            Nó hoạt động dựa trên các phương thức HTTP quen thuộc:
+          </p>
+          <ul>
+            <li><strong>GET</strong> – Lấy dữ liệu (ví dụ: danh sách sản phẩm, bài viết,...)</li>
+            <li><strong>POST</strong> – Gửi dữ liệu (ví dụ: tạo tài khoản, thêm bình luận,...)</li>
+            <li><strong>PUT / PATCH</strong> – Cập nhật dữ liệu hiện có</li>
+            <li><strong>DELETE</strong> – Xóa dữ liệu</li>
+          </ul>
+
+          <br>
+          <img src="images/blog/js-rest-flow.png">
+          <!-- 👉 Nên thay bằng sơ đồ "Client ↔ Server API flow" -->
+          <br>
+          <p>
+            Hình trên minh họa mô hình Client – Server trong kiến trúc <strong>REST API (Representational State Transfer)</strong>. 
+            Trong mô hình này, Server đóng vai trò lưu trữ và xử lý dữ liệu, đồng thời cung cấp các API cho phép các <strong>Client</strong> (như máy tính, laptop, điện thoại hoặc trình duyệt web) truy cập và thao tác với dữ liệu thông qua giao thức HTTP. 
+            Các <strong>Client</strong> sẽ gửi yêu cầu (request) đến Server để thực hiện các hành động như <strong>GET</strong> (lấy dữ liệu, ví dụ danh sách sản phẩm hoặc bài viết), <strong>POST</strong> (gửi dữ liệu, ví dụ tạo tài khoản hoặc thêm bình luận), <strong>PUT/PATCH</strong> (cập nhật dữ liệu hiện có) và <strong>DELETE</strong> (xóa dữ liệu). Sau khi nhận được yêu cầu, Server sẽ xử lý và trả về phản hồi (response) tương ứng cho <strong>Client</strong>, giúp việc trao đổi thông tin giữa hai bên trở nên hiệu quả, linh hoạt và thống nhất.
+          </p>
+
+          <blockquote>
+            <p>“API là cầu nối giúp JavaScript trò chuyện với thế giới — từ thời tiết, tin tức đến mạng xã hội.”</p>
+          </blockquote>
+
+          <h3>2. Làm quen với Fetch API</h3>
+          <p>
+            <strong>Fetch API</strong> là công cụ tích hợp sẵn trong trình duyệt giúp bạn gửi yêu cầu HTTP và nhận phản hồi một cách đơn giản.
+            Nó trả về <code>Promise</code>, nên rất tiện khi kết hợp với <code>async / await</code>.
+          </p>
+
+          <pre><code class="language-javascript">
+            // Ví dụ đơn giản sử dụng Fetch API
+            fetch('https://api.example.com/users')
+            .then(response =&gt; response.json())
+            .then(data =&gt; console.log(data))
+            .catch(error =&gt; console.error('Lỗi:', error));
+          </code></pre>
+
+          <p>
+            Đoạn code trên gửi yêu cầu GET đến API, sau đó chuyển phản hồi thành JSON và in kết quả ra console.  
+            Nếu có lỗi (mất mạng, sai URL, lỗi server) thì khối <code>catch</code> sẽ xử lý.
+          </p>
+
+          <h3>3. Xử lý JSON trong JavaScript</h3>
+          <p>
+            Dữ liệu API thường ở định dạng <strong>JSON (JavaScript Object Notation)</strong> – dễ đọc và dễ thao tác.  
+            Bạn có thể chuyển đổi qua lại giữa JSON và Object bằng:
+          </p>
+
+          <pre><code class="language-javascript">
+            // Object → JSON
+            const user = { name: 'Thinh', age: 22 };
+            const jsonString = JSON.stringify(user);
+
+            // JSON → Object
+            const parsed = JSON.parse(jsonString);
+            console.log(parsed.name); // 'Thinh'
+          </code></pre>
+
+          <p>
+            👉 Khi làm việc với API, hãy nhớ: <code>response.json()</code> cũng là một Promise — bạn cần <code>await</code> hoặc <code>then()</code> để lấy dữ liệu.
+          </p>
+
+          <h3>4. Async / Await – Code gọn gàng hơn</h3>
+          <p>
+            Sử dụng <code>async / await</code> giúp bạn viết code xử lý API dễ đọc hơn nhiều so với callback lồng nhau.
+          </p>
+
+          <pre><code class="language-javascript">
+            async function loadUsers() {
+            try {
+                const res = await fetch('https://jsonplaceholder.typicode.com/users');
+                const data = await res.json();
+                console.log('Danh sách người dùng:', data);
+            } catch (error) {
+                console.error('Lỗi khi tải dữ liệu:', error);
+            }
+            }
+
+            loadUsers();
+          </code></pre>
+
+          <p>
+            👉 Đây là phong cách hiện đại trong hầu hết framework (React, Vue, Node.js) vì dễ debug và dễ mở rộng.
+          </p>
+
+          <h3>5. Gửi dữ liệu (POST Request)</h3>
+          <p>
+            Ngoài việc đọc dữ liệu, bạn còn có thể gửi thông tin đến server — ví dụ, thêm người dùng mới:
+          </p>
+
+          <pre><code class="language-javascript">
+        async function createUser() {
+        const newUser = { name: 'Alex', email: 'alex@mail.com' };
+
+        try {
+            const res = await fetch('https://jsonplaceholder.typicode.com/users', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newUser)
+            });
+
+            const data = await res.json();
+            console.log('Người dùng mới:', data);
+        } catch (err) {
+            console.error('Lỗi khi gửi dữ liệu:', err);
+        }
+        }
+
+        createUser();
+          </code></pre>
+
+          <p>
+            👉 Luôn nhớ thiết lập header <code>Content-Type: application/json</code> khi gửi dữ liệu dạng JSON.
+          </p>
+
+          <h3>6. Xử lý lỗi và Loading UI</h3>
+          <p>
+            API có thể phản hồi chậm hoặc lỗi, vì vậy bạn nên thêm trạng thái loading và kiểm tra mã phản hồi HTTP:
+          </p>
+
+          <pre><code class="language-javascript">
+            async function getPosts() {
+            const loading = document.querySelector('#loading');
+            loading.textContent = 'Đang tải...';
+
+            try {
+                const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+                if (!res.ok) throw new Error('Không thể tải dữ liệu!');
+
+                const posts = await res.json();
+                console.log(posts);
+                loading.textContent = 'Hoàn tất!';
+            } catch (err) {
+                loading.textContent = 'Lỗi xảy ra!';
+                console.error(err);
+            }
+            }
+
+            getPosts();
+          </code></pre>
+
+          <blockquote>
+            <p>“Trải nghiệm người dùng tốt bắt đầu từ việc xử lý lỗi và trạng thái tải thông minh.”</p>
+          </blockquote>
+
+          <h3>7. Kết hợp API với giao diện</h3>
+          <p>
+            Dữ liệu JSON có thể dễ dàng hiển thị lên HTML bằng cách thao tác DOM.  
+            Ví dụ: hiển thị danh sách bài viết lấy từ API:
+          </p>
+
+          <pre><code class="language-javascript">
+            async function renderPosts() {
+            const container = document.querySelector('#postList');
+            const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+            const posts = await res.json();
+
+            container.innerHTML = posts
+                .slice(0, 5)
+                .map(p =&gt; `&lt;li&gt;&lt;strong&gt;${p.title}&lt;/strong&gt;&lt;br&gt;${p.body}&lt;/li&gt;`)
+                .join('');
+            }
+
+            renderPosts();
+          </code></pre>
+          <br>
+
+          <img src="images/blog/js-fetch-code.png" alt="Minh họa code fetch API trong JavaScript">
+          <p>
+            Hình trên minh họa cách sử dụng <code>Fetch API</code> trong JavaScript để lấy dữ liệu từ một API và xử lý kết quả trả về. Lệnh <code>fetch(url, options)</code> được dùng để gửi yêu cầu đến máy chủ. Khi phản hồi được trả về, <code>.then(response => {...})</code> kiểm tra xem phản hồi có thành công không <code>(response.ok)</code>, nếu không thì báo lỗi. 
+            Nếu thành công, dữ liệu sẽ được chuyển đổi sang định dạng JSON bằng <code>response.json()</code> để dễ dàng xử lý. Ở phần <code>.then(data => {...})</code>, dữ liệu JSON nhận được sẽ được truy cập và có thể hiển thị lên giao diện web thông qua thao tác DOM, ví dụ như hiển thị danh sách bài viết. 
+            Cuối cùng, <code>.catch(error => {...})</code> được dùng để bắt và xử lý các lỗi xảy ra trong quá trình gửi yêu cầu hoặc nhận phản hồi.
+          </p>
+
+
+          <img src="images/blog/js-json-visual.png" alt="Biểu đồ minh họa cấu trúc JSON và luồng dữ liệu giữa client-server">
+          <br>
+          <p>
+            Trong mô hình này, Client (có thể là máy tính, laptop, điện thoại hay máy tính bảng) gửi yêu cầu thông qua Internet đến <strong>Web Server</strong> (ở đây là máy chủ UNIX chạy Apache Web Server, lưu trữ các tệp JSP hoặc API). 
+            Server tiếp nhận yêu cầu, truy xuất dữ liệu từ Database <strong>(ví dụ Oracle Database)</strong>, sau đó trả kết quả về cho Client dưới dạng dữ liệu JSON.
+          </p> 
+
+          <p>
+            Trên phía <strong>Client</strong>, <strong>JavaScript</strong> sẽ nhận dữ liệu JSON này và hiển thị trực tiếp lên giao diện HTML bằng cách thao tác <code>DOM(Document Object Model)</code> . 
+            Ví dụ, lập trình viên có thể dùng lệnh <code>fetch()</code> để lấy dữ liệu bài viết từ API, sau đó hiển thị tiêu đề và nội dung ra danh sách HTML.
+          </p>
+
+          <h3>8. Tổng kết</h3>
+          <p>
+            <strong>Tích hợp API</strong> là kỹ năng cốt lõi của lập trình web hiện đại.  
+            Khi bạn hiểu rõ cách dùng <code>fetch</code>, xử lý JSON, và kết hợp async/await,  
+            bạn có thể kết nối ứng dụng với hầu hết mọi dịch vụ trực tuyến — từ OpenWeather, GitHub, đến ChatGPT API.  
+            <br><br>
+            👉 Hãy thực hành bằng cách gọi thử các API công khai (như JSONPlaceholder hoặc OpenWeatherMap)  
+            và hiển thị dữ liệu ngay trên giao diện của bạn.
+          </p>
+
+          <blockquote>
+            <p>“API không chỉ là dữ liệu — nó là cánh cửa để JavaScript của bạn kết nối với cả thế giới.”</p>
+          </blockquote>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

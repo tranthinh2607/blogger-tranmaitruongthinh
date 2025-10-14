@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">JavaScript DOM Manipulation</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+          <img src="images/blog/dom-banner.png"> <!-- 👉 Nên thay bằng ảnh minh họa DOM Tree -->
+            <br> <br>
+
+          <h3>Giới thiệu</h3>
+          <p>
+            Trong lập trình web, <strong>DOM (Document Object Model)</strong> đóng vai trò trung tâm giúp JavaScript có thể tương tác với nội dung HTML. 
+            DOM là cầu nối giữa <strong>mã JavaScript</strong> và <strong>giao diện người dùng</strong>, cho phép bạn truy cập, thay đổi hoặc thêm mới các phần tử HTML một cách linh hoạt. 
+            Việc nắm vững kỹ thuật thao tác DOM (DOM Manipulation) giúp bạn biến những trang web tĩnh thành những ứng dụng web động, trực quan và hấp dẫn hơn.
+          </p>
+
+          <h3>DOM là gì?</h3>
+          <p>
+            Khi một trang web được tải, trình duyệt tạo ra một <strong>cây DOM</strong> — biểu diễn toàn bộ cấu trúc HTML dưới dạng các <strong>đối tượng (objects)</strong>. 
+            Mỗi thẻ HTML (như <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code>…) được xem như một <strong>nút (node)</strong> trong cây này.
+          </p>
+
+          <img src="images/blog/dom-tree.png" style="display:block; margin:0 auto;"> <!-- 👉 Nên thay bằng sơ đồ DOM tree -->
+          <br> <br>
+
+          <blockquote>
+            <p>
+              “Hiểu DOM nghĩa là hiểu cách trình duyệt nhìn thấy website của bạn — đó là bước đầu để điều khiển giao diện bằng JavaScript.”
+            </p>
+          </blockquote>
+
+          <h3>Truy cập phần tử DOM</h3>
+          <p>Bạn có thể lấy các phần tử HTML bằng nhiều cách khác nhau:</p>
+          <pre><code class="language-js">// Theo ID
+                const title = document.getElementById('title');
+
+                // Theo class
+                const items = document.getElementsByClassName('item');
+
+                // Theo tag
+                const paragraphs = document.getElementsByTagName('p');
+
+                // Modern selectors
+                const button = document.querySelector('#submitBtn');
+                const allButtons = document.querySelectorAll('.btn');</code></pre>
+          <p>
+            Cách hiện đại và linh hoạt nhất là dùng <code>querySelector</code> hoặc <code>querySelectorAll</code>, vì cú pháp của chúng tương tự CSS selectors.
+          </p>
+
+          <h3>Thay đổi nội dung và thuộc tính</h3>
+          <p>JavaScript có thể chỉnh sửa văn bản, thêm hoặc xóa phần tử, và thay đổi thuộc tính HTML:</p>
+          <pre><code class="language-js">const title = document.querySelector('#title');
+                title.textContent = 'Xin chào DOM!';
+
+                const img = document.querySelector('img');
+                img.src = 'images/new-photo.jpg';
+                img.alt = 'Ảnh mới được thay';</code></pre>
+
+          <p>
+            Ngoài ra, bạn có thể thêm hoặc xóa class để thay đổi giao diện thông qua CSS:
+          </p>
+          <pre><code class="language-js">const card = document.querySelector('.card');
+            card.classList.add('active'); // Thêm class
+            card.classList.remove('hidden'); // Xóa class
+            card.classList.toggle('dark-mode'); // Bật / tắt class</code></pre>
+          <br> <br>
+          <img src="images/blog/dom-edit.png" style="display:block; margin:0 auto;"> <!-- 👉 Ảnh minh họa thay đổi phần tử -->
+          <br> <br>
+
+          <p>
+            Hình minh họa trên thể hiện cách JavaScript tương tác với <strong>DOM</strong> (Document Object Model) để thay đổi nội dung, thuộc tính và giao diện của trang web. 
+            Khi trình duyệt tải một tệp HTML, nó sẽ chuyển cấu trúc tài liệu thành cây <strong>DOM</strong> (DOM Tree) – trong đó mỗi phần tử HTML được biểu diễn dưới dạng một đối tượng <strong>(object)</strong> mà JavaScript có thể truy cập và thao tác.
+          </p>
+
+          <h3>Tạo và chèn phần tử mới</h3>
+          <p>DOM API cho phép bạn tạo mới phần tử HTML hoàn toàn bằng JavaScript:</p>
+          <pre><code class="language-js">const newItem = document.createElement('li');
+            newItem.textContent = 'Mục mới được thêm bằng JS';
+
+            const list = document.querySelector('ul');
+            list.appendChild(newItem); // Thêm vào cuối danh sách</code></pre>
+
+          <p>
+            Các phương thức như <code>append()</code>, <code>prepend()</code>, hoặc <code>insertBefore()</code> giúp bạn kiểm soát vị trí chèn phần tử trong cây DOM.
+          </p>
+
+          <h3>Xử lý sự kiện (Events)</h3>
+          <p>
+            Sự kiện (event) là hành động người dùng thực hiện trên trang, ví dụ: click chuột, nhập văn bản, cuộn trang, v.v. 
+            Để phản hồi lại, bạn có thể “lắng nghe” sự kiện bằng <code>addEventListener()</code>:
+          </p>
+
+          <pre><code class="language-js">const btn = document.querySelector('#clickMe');
+
+            btn.addEventListener('click', () => {
+            alert('Bạn vừa nhấn nút!');
+            });</code></pre>
+
+          <p>
+            Ngoài ra, bạn có thể gắn sự kiện cho nhiều phần tử cùng lúc:
+          </p>
+          <pre><code class="language-js">const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(btn => {
+            btn.addEventListener('mouseover', () => {
+                btn.classList.add('hovered');
+            });
+            });</code></pre>
+            <br> <br>
+          <img src="images/blog/dom-event.png" style="display:block; margin:0 auto;">
+            <br> <br>
+
+            <p>
+              Khi người dùng thực hiện một hành động trên trang web — chẳng hạn như nhấn nút <strong>click button</strong>, nhập văn bản, hoặc di chuyển chuột — một sự kiện (event) sẽ được kích hoạt.
+              Ngay sau đó, Event Handler <strong>trình xử lý sự kiện</strong> sẽ được gọi để thực thi một đoạn mã phản hồi tương ứng, từ đó cập nhật giao diện<strong>webpage updated</strong> hoặc thực hiện hành động mà lập trình viên mong muốn.
+            </p>
+
+          <h3>Tạo trang web động (Dynamic Web Pages)</h3>
+          <p>
+            Khi kết hợp thao tác DOM và xử lý sự kiện, bạn có thể tạo ra các <strong>ứng dụng web động</strong> như:
+          </p>
+          <ul>
+            <li>Hiển thị / ẩn nội dung khi nhấn nút</li>
+            <li>Tạo danh sách công việc (To-do list)</li>
+            <li>Cập nhật dữ liệu trực tiếp mà không cần tải lại trang</li>
+          </ul>
+
+          <p>Ví dụ nhỏ:</p>
+          <pre><code class="language-js">const btnAdd = document.querySelector('#addItem');
+            const list = document.querySelector('#todoList');
+
+            btnAdd.addEventListener('click', () => {
+            const newTask = prompt('Nhập công việc mới:');
+            if (newTask) {
+                const li = document.createElement('li');
+                li.textContent = newTask;
+                list.appendChild(li);
+            }
+            });</code></pre>
+            <br> <br>
+          <img src="images/blog/dom-todo.png">             
+          <p>
+            Khi kết hợp giữa thao tác trên <strong>DOM(Document Object Model)</strong>  và xử lý sự kiện trong JavaScript, lập trình viên có thể xây dựng các trang web mang tính tương tác cao – hay còn gọi là trang web động. 
+            Những trang này cho phép người dùng thay đổi giao diện và dữ liệu trực tiếp mà không cần tải lại trang. Một số ví dụ quen thuộc như hiển thị hoặc ẩn nội dung khi nhấn nút, tạo danh sách công việc (to-do list), hay cập nhật thông tin trên giao diện theo thời gian thực.
+          </p>
+          <br> <br>         
+          <h3>Kỹ thuật nâng cao</h3>
+          <ul>
+            <li><strong>Event Delegation:</strong> gắn sự kiện lên phần tử cha để xử lý nhiều phần tử con hiệu quả hơn.</li>
+            <li><strong>Thao tác dataset:</strong> dùng <code>data</code> để truyền dữ liệu động trong HTML.</li>
+            <li><strong>Reflow & Repaint:</strong> tối ưu hiệu suất khi thay đổi nhiều phần tử DOM.</li>
+          </ul>
+
+          <h3>Tổng kết</h3>
+          <p>
+            DOM Manipulation là một kỹ năng cốt lõi khi học JavaScript. Nó giúp bạn hiểu cách trình duyệt hoạt động, 
+            xây dựng giao diện phản hồi nhanh, và tạo ra các trải nghiệm người dùng tốt hơn.  
+            Khi bạn đã quen với DOM, hãy tiến xa hơn với các framework như <strong>React</strong>, <strong>Vue</strong>, hoặc <strong>Svelte</strong>, 
+            nơi mà việc thao tác DOM được tự động hóa và tối ưu hơn nhiều.
+          </p>
+
+          <blockquote>
+            <p>
+              “Hãy bắt đầu nhỏ — chọn một phần tử, thay đổi nó, thêm sự kiện — và từng bước, bạn sẽ làm chủ JavaScript DOM.”
+            </p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

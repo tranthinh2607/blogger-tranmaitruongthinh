@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">Java Exception Handling</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+
+          <img src="images/blog/java-exception-banner.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng ảnh minh họa "error handling" hoặc "try-catch flow" trong Java -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            Trong quá trình lập trình Java, lỗi (error) và ngoại lệ (exception) là điều không thể tránh khỏi.  
+            <strong>Java Exception Handling</strong> giúp bạn kiểm soát luồng chương trình khi có sự cố xảy ra — 
+            thay vì để ứng dụng bị dừng đột ngột.  
+            <br><br>
+            Việc hiểu rõ cơ chế xử lý ngoại lệ, cách tạo custom exceptions và áp dụng best practices sẽ giúp code của bạn
+            trở nên <strong>ổn định, dễ bảo trì và thân thiện với người dùng hơn</strong>.
+          </p>
+
+          <h3>1. Khái niệm cơ bản về Exception</h3>
+          <p>
+            Một <strong>Exception</strong> là một sự kiện bất thường xảy ra trong quá trình thực thi chương trình, 
+            làm gián đoạn luồng thực thi bình thường.
+            <br><br>
+            Java chia exceptions thành 2 loại chính:
+          </p>
+          <ul>
+            <li><strong>Checked Exceptions</strong> – được kiểm tra tại thời điểm biên dịch (ví dụ: <code>IOException</code>, <code>SQLException</code>).</li>
+            <li><strong>Unchecked Exceptions</strong> – xảy ra tại runtime, thường do lỗi logic (ví dụ: <code>NullPointerException</code>, <code>ArithmeticException</code>).</li>
+          </ul>
+
+          <br><br>
+          <img src="images/blog/java-exception-hierarchy.png">
+          <!-- 👉 Nên thay bằng sơ đồ phân cấp của Throwable, Exception, RuntimeException -->
+          <br><br>
+
+          <p>
+            Đây là minh họa cấu trúc phân cấp <strong>Exception</strong> trong Java, bắt đầu từ lớp gốc Object, qua Throwable, chia thành hai nhánh chính là Error và Exception.
+            Các ô màu đỏ là <strong>checked exceptions</strong>, còn các ô xanh lá là <strong>unchecked exceptions</strong> (runtime).
+          </p>
+          <br><br>
+          
+          <blockquote>
+            <p>“Hiểu rõ phân cấp của Exception là bước đầu để kiểm soát lỗi một cách thông minh.”</p>
+          </blockquote>
+
+          <h3>2. Cấu trúc try–catch–finally</h3>
+          <p>
+            Java cung cấp khối <code>try–catch</code> để bắt và xử lý ngoại lệ.  
+            Ngoài ra, khối <code>finally</code> luôn được thực thi — kể cả khi có lỗi hay không — 
+            giúp bạn giải phóng tài nguyên như kết nối file, database, hoặc stream.
+          </p>
+          <pre><code class="language-java">public class TryCatchExample {
+            public static void main(String[] args) {
+                try {
+                    int result = 10 / 0; // Lỗi chia cho 0
+                    System.out.println("Kết quả: " + result);
+                } catch (ArithmeticException e) {
+                    System.out.println("Lỗi: Không thể chia cho 0!");
+                } finally {
+                    System.out.println("Khối finally luôn được thực thi.");
+                }
+            }
+        }</code></pre>
+                <p>
+                    👉 Hãy luôn dùng <code>finally</code> (hoặc <code>try-with-resources</code>) để đảm bảo tài nguyên được đóng đúng cách.
+                </p>
+
+                <h3>3. Tạo Custom Exception</h3>
+                <p>
+                    Đôi khi, bạn cần định nghĩa lỗi riêng phù hợp với logic nghiệp vụ của mình.  
+                    Khi đó, có thể tạo <strong>Custom Exception</strong> bằng cách kế thừa lớp <code>Exception</code> hoặc <code>RuntimeException</code>.
+                </p>
+                <pre><code class="language-java">class InvalidAgeException extends Exception {
+            public InvalidAgeException(String message) {
+                super(message);
+            }
+        }
+
+        public class CustomExceptionDemo {
+            static void checkAge(int age) throws InvalidAgeException {
+                if (age &lt; 18) {
+                    throw new InvalidAgeException("Tuổi phải lớn hơn hoặc bằng 18!");
+                }
+            }
+
+            public static void main(String[] args) {
+                try {
+                    checkAge(16);
+                } catch (InvalidAgeException e) {
+                    System.out.println("Lỗi: " + e.getMessage());
+                }
+            }
+        }</code></pre>
+          <p>
+            👉 Custom Exception giúp chương trình diễn giải lỗi rõ ràng hơn, thay vì chỉ hiển thị lỗi hệ thống.
+          </p>
+
+          <h3>4. Multi-Catch & Nested Try</h3>
+          <p>
+            Khi có nhiều loại lỗi có thể xảy ra, bạn có thể dùng **multi-catch** hoặc **nested try** để xử lý chi tiết từng trường hợp.
+          </p>
+          <pre><code class="language-java">public class MultiCatchExample {
+            public static void main(String[] args) {
+                try {
+                    String text = null;
+                    System.out.println(text.length()); // NullPointerException
+                } catch (ArithmeticException | NullPointerException e) {
+                    System.out.println("Đã xảy ra lỗi: " + e);
+                }
+            }
+        }</code></pre>
+          <p>
+            👉 Multi-catch giúp code gọn hơn khi các lỗi có cùng cách xử lý.
+          </p>
+
+          <h3>5. Throw vs Throws</h3>
+          <ul>
+            <li><strong>throw</strong>: dùng để ném một exception cụ thể trong code.</li>
+            <li><strong>throws</strong>: khai báo rằng phương thức có thể ném exception để người gọi xử lý.</li>
+          </ul>
+          <pre><code class="language-java">public class ThrowExample {
+            static void validate(int age) throws ArithmeticException {
+                if (age &lt; 18)
+                    throw new ArithmeticException("Không đủ tuổi đăng ký!");
+                else
+                    System.out.println("Đăng ký thành công!");
+            }
+
+            public static void main(String args[]) {
+                validate(15);
+                System.out.println("Hoàn tất!");
+            }
+        }</code></pre>
+
+          <blockquote>
+            <p>“Sử dụng throw và throws hợp lý giúp bạn quản lý lỗi có kiểm soát và rõ ràng.”</p>
+          </blockquote>
+
+          <h3>6. Best Practices khi xử lý Exception</h3>
+          <ul>
+            <li>Chỉ bắt những exception mà bạn **có thể xử lý hợp lý**.</li>
+            <li>Không dùng <code>catch (Exception e)</code> một cách tùy tiện.</li>
+            <li>Luôn ghi log chi tiết (<code>e.printStackTrace()</code> hoặc logging framework).</li>
+            <li>Dọn dẹp tài nguyên trong <code>finally</code> hoặc dùng <code>try-with-resources</code>.</li>
+            <li>Tạo custom exception khi cần rõ nghĩa hơn cho người đọc code.</li>
+          </ul>
+
+          <h3>7. Ví dụ hoàn chỉnh: try-with-resources</h3>
+          <p>
+            Dưới đây là ví dụ về cách dùng <code>try-with-resources</code> để đọc file mà không cần đóng thủ công.
+          </p>
+          <pre><code class="language-java">import java.io.*;
+
+            public class ReadFileExample {
+                public static void main(String[] args) {
+                    try (BufferedReader reader = new BufferedReader(new FileReader("data.txt"))) {
+                        String line;
+                        while ((line = reader.readLine()) != null) {
+                            System.out.println(line);
+                        }
+                    } catch (IOException e) {
+                        System.out.println("Lỗi đọc file: " + e.getMessage());
+                    }
+                }
+            }</code></pre>
+          <p>
+            👉 <code>try-with-resources</code> giúp tự động đóng tài nguyên, tránh rò rỉ bộ nhớ và code gọn hơn.
+          </p>
+
+          <br><br>
+          <img src="images/blog/java-try-catch-flow.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ minh họa luồng try-catch-finally -->
+          <br><br>
+
+          <p>
+            Hình minh họa bên dưới cho thấy luồng xử lý cơ bản của <code>try – catch – finally</code>.
+            Với <code>try-with-resources</code>, phần <strong>đóng tài nguyên</strong> (thường nằm trong finally) được tự động thực thi, giúp lập trình viên không cần viết thêm mã xử lý thủ công.
+          </p>
+
+          <h3>8. Tổng kết</h3>
+          <p>
+            Exception Handling là kỹ năng quan trọng giúp bạn viết ứng dụng Java an toàn và đáng tin cậy hơn.  
+            Biết cách sử dụng <code>try-catch</code>, <code>throw</code>, <code>throws</code> và custom exception đúng lúc sẽ giúp bạn kiểm soát luồng lỗi linh hoạt.  
+            <br><br>
+            👉 Hãy luyện tập bằng cách cố tình tạo lỗi trong chương trình nhỏ, sau đó xử lý chúng theo nhiều cách khác nhau — 
+            bạn sẽ nhanh chóng hiểu sâu hơn về cơ chế Exception trong Java.
+          </p>
+
+          <blockquote>
+            <p>“Xử lý ngoại lệ tốt không chỉ làm chương trình chạy ổn định — mà còn giúp người dùng tin tưởng sản phẩm của bạn.”</p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

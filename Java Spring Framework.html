@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">Java Spring Framework</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+
+          <img src="images/blog/spring-framework-banner.jpg">
+          <!-- 👉 Gợi ý ảnh: Logo Spring trên nền code Java hoặc server backend -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            <strong>Spring Framework</strong> là một trong những framework mạnh mẽ và phổ biến nhất trong hệ sinh thái Java.  
+            Nó giúp các lập trình viên xây dựng ứng dụng **linh hoạt, dễ bảo trì, và mở rộng nhanh chóng** nhờ triết lý “Inversion of Control” (IoC) và “Dependency Injection” (DI).
+            <br><br>
+            Nếu bạn từng thấy việc khởi tạo, cấu hình và quản lý các đối tượng trong dự án Java trở nên phức tạp, Spring chính là giải pháp tối ưu hóa mọi thứ đó.  
+            Bài viết này sẽ hướng dẫn bạn hiểu các khái niệm cốt lõi của Spring, cách Spring Boot đơn giản hóa phát triển ứng dụng, và cách xây dựng RESTful API nhanh chóng chỉ trong vài dòng code.
+          </p>
+
+          <h3>1. Spring Framework là gì?</h3>
+          <p>
+            Spring là một framework mã nguồn mở (open-source) hỗ trợ phát triển ứng dụng Java một cách toàn diện — từ tầng dữ liệu, logic nghiệp vụ đến tầng web.
+            <br><br>
+            Mục tiêu chính của Spring là **giảm sự phụ thuộc giữa các thành phần trong ứng dụng**. Thay vì các class tự tạo và quản lý đối tượng, Spring sẽ tự động khởi tạo và “tiêm” (inject) chúng vào nơi cần thiết.
+          </p>
+
+          <blockquote>
+            <p>“Spring giống như một ‘nhạc trưởng’ — điều phối mọi đối tượng trong ứng dụng của bạn hoạt động hài hòa.”</p>
+          </blockquote>
+
+          <img src="images/blog/spring-architecture.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ kiến trúc Spring: Core, Context, AOP, Data, MVC -->
+          <br>
+
+          <p>
+            <strong>Hình trên</strong> minh họa kiến trúc tổng thể của <strong>Spring Framework</strong> — 
+            một <em>framework mã nguồn mở</em> hỗ trợ phát triển ứng dụng Java toàn diện 
+            từ tầng dữ liệu đến tầng web.
+          </p>
+
+          <p>
+            <strong>1. Core Container:</strong><br>
+            Bao gồm các thành phần <em>Beans</em>, <em>Core</em>, <em>Context</em>, và <em>SpEL</em> (Spring Expression Language). 
+            Đây là “trái tim” của Spring, chịu trách nhiệm quản lý và 
+            <strong>tiêm phụ thuộc (Dependency Injection)</strong>, 
+            giúp giảm sự phụ thuộc giữa các lớp trong ứng dụng.
+          </p>
+
+          <p>
+            <strong>2. Data Access/Integration:</strong><br>
+            Gồm các mô-đun <em>JDBC</em>, <em>ORM</em>, <em>OXM</em>, <em>JMS</em>, và <em>Transactions</em>. 
+            Các thành phần này hỗ trợ làm việc với cơ sở dữ liệu, giao dịch 
+            và tích hợp với các hệ thống khác.
+          </p>
+
+          <p>
+            <strong>3. Web Module:</strong><br>
+            Bao gồm <em>Servlet</em>, <em>WebSocket</em>, <em>Portlet</em>, và <em>Web</em>. 
+            Đây là phần cho phép xây dựng các ứng dụng web linh hoạt, 
+            trong đó có mô hình <strong>Spring MVC</strong>.
+          </p>
+
+          <p>
+            <strong>4. AOP, Aspects, Instrumentation & Messaging:</strong><br>
+            Các mô-đun này mở rộng khả năng <em>lập trình hướng khía cạnh (AOP)</em>, 
+            hỗ trợ xử lý thông điệp và công cụ giám sát, giúp quản lý mã nguồn hiệu quả hơn.
+          </p>
+
+          <p>
+            <strong>5. Test Module:</strong><br>
+            Cung cấp công cụ và thư viện để <strong>kiểm thử ứng dụng Spring</strong>, 
+            đảm bảo chất lượng, độ tin cậy và ổn định của toàn bộ hệ thống.
+          </p>
+
+
+          <h3>2. Dependency Injection (DI) – Trái tim của Spring</h3>
+          <p>
+            <strong>Dependency Injection</strong> là cơ chế cho phép Spring tự động cung cấp (inject) các đối tượng phụ thuộc vào class khác, giúp giảm sự gắn kết (coupling) giữa các module.
+            <br><br>
+            Thay vì:
+          </p>
+          <pre><code class="language-java">public class UserService {
+              private UserRepository userRepository = new UserRepository();
+          }</code></pre>
+                    <p>Bạn có thể viết:</p>
+                    <pre><code class="language-java">@Service
+          public class UserService {
+              private final UserRepository userRepository;
+
+              @Autowired
+              public UserService(UserRepository userRepository) {
+                  this.userRepository = userRepository;
+              }
+          }</code></pre>
+          <p>
+            Ở đây, Spring sẽ tự động “tiêm” <code>UserRepository</code> vào <code>UserService</code> mà bạn không cần khởi tạo thủ công.
+            Điều này giúp việc test, bảo trì và thay đổi code dễ dàng hơn rất nhiều.
+          </p>
+
+          <h3>3. Inversion of Control (IoC)</h3>
+          <p>
+            IoC là nguyên lý cốt lõi của Spring, nơi mà việc **quản lý vòng đời của các đối tượng** (bean) được chuyển giao cho framework.
+            <br><br>
+            Tất cả các bean được Spring quản lý nằm trong <strong>IoC Container</strong>, và được khai báo bằng annotation (<code>@Component</code>, <code>@Service</code>, <code>@Repository</code>) hoặc trong file cấu hình XML.
+          </p>
+
+          <h3>4. Spring Boot – Cách nhanh nhất để bắt đầu</h3>
+          <p>
+            <strong>Spring Boot</strong> ra đời để đơn giản hóa việc khởi tạo và cấu hình ứng dụng Spring truyền thống.  
+            Không cần cấu hình XML phức tạp — chỉ cần vài annotation, bạn có thể chạy ứng dụng backend trong vài giây.
+          </p>
+
+          <pre><code class="language-java">@SpringBootApplication
+            public class DemoApplication {
+                public static void main(String[] args) {
+                    SpringApplication.run(DemoApplication.class, args);
+                }
+            }</code></pre>
+
+          <p>
+            Khi chạy, Spring Boot tự động:
+          </p>
+          <ul>
+            <li>Tạo IoC Container và quản lý bean.</li>
+            <li>Cấu hình server (Tomcat) mặc định.</li>
+            <li>Quét các component trong project.</li>
+            <li>Hỗ trợ build REST API, JPA, Security chỉ với một vài dependency.</li>
+          </ul>
+          <br>
+          <img src="images/blog/spring-boot-run.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Gợi ý ảnh: giao diện console khi chạy Spring Boot app thành công -->
+          <br>
+
+          <h3>5. Xây dựng RESTful Web Services với Spring Boot</h3>
+          <p>
+            Một trong những tính năng mạnh mẽ nhất của Spring Boot là xây dựng **REST API** cực nhanh.  
+            Dưới đây là ví dụ đơn giản:
+          </p>
+          <pre><code class="language-java">@RestController
+            @RequestMapping("/api")
+            public class HelloController {
+
+                @GetMapping("/hello")
+                public String sayHello() {
+                    return "Xin chào từ Spring Boot!";
+                }
+            }</code></pre>
+          <p>
+            Chạy ứng dụng và truy cập <code>http://localhost:8080/api/hello</code>, bạn sẽ thấy kết quả trả về từ API mà không cần thêm bất kỳ cấu hình server nào.
+          </p>
+
+          <blockquote>
+            <p>“Spring Boot biến việc viết API trở nên đơn giản như viết một dòng println().”</p>
+          </blockquote>
+
+          <h3>6. Spring và tầng dữ liệu (Spring Data JPA)</h3>
+          <p>
+            Với module <strong>Spring Data JPA</strong>, bạn có thể tương tác với cơ sở dữ liệu mà không cần viết câu SQL dài dòng.  
+            Chỉ cần định nghĩa interface:
+          </p>
+          <pre><code class="language-java">public interface UserRepository extends JpaRepository&lt;User, Long&gt; {
+              List&lt;User&gt; findByName(String name);
+          }</code></pre>
+          <p>
+            Spring Boot sẽ tự động tạo các truy vấn tương ứng nhờ vào tên phương thức — cực kỳ tiện lợi và tiết kiệm thời gian.
+          </p>
+
+          <br>
+          <img src="images/blog/spring-jpa.png" style="display:block; margin:0 auto;">
+          <br>
+          <!-- 👉 Gợi ý ảnh: sơ đồ Spring Data JPA flow (Entity -> Repository -> Service -> Controller) -->
+          <p>
+            <b>Hình trên</b> minh họa <b>luồng hoạt động của Spring Data JPA</b> trong tầng dữ liệu — 
+            giúp lập trình viên tương tác với cơ sở dữ liệu quan hệ (Relational Database) 
+            mà không cần viết câu lệnh SQL phức tạp.
+          </p>
+
+          <p>
+            <b>1️⃣ JDBC (Java Database Connectivity)</b><br>
+            Đây là tầng thấp nhất, chịu trách nhiệm kết nối trực tiếp đến cơ sở dữ liệu. 
+            JDBC cung cấp các API để gửi câu lệnh SQL và nhận kết quả trả về.
+          </p>
+
+          <p>
+            <b>2️⃣ Hibernate (ORM – Object Relational Mapping)</b><br>
+            Nằm phía trên JDBC, Hibernate giúp ánh xạ (mapping) giữa 
+            <i>các đối tượng Java</i> và <i>các bảng trong cơ sở dữ liệu</i>. 
+            Nhờ đó, lập trình viên có thể làm việc với đối tượng thay vì viết SQL thủ công.
+          </p>
+
+          <p>
+            <b>3️⃣ JPA (Java Persistence API)</b><br>
+            Là một <i>chuẩn giao tiếp</i> giữa ứng dụng Java và các framework ORM như Hibernate. 
+            JPA định nghĩa các quy tắc và annotation giúp thao tác dữ liệu trở nên thống nhất, dễ mở rộng.
+          </p>
+
+          <p>
+            <b>4️⃣ Spring Data JPA</b><br>
+            Là tầng cao nhất, cung cấp một lớp trừu tượng (Repository Layer). 
+            Với Spring Data JPA, lập trình viên chỉ cần định nghĩa các <b>interface</b> 
+            mở rộng từ <code>JpaRepository</code> để thực hiện CRUD — 
+            mà không cần viết bất kỳ câu SQL nào.
+          </p>
+
+
+          <h3>7. Ưu điểm của Spring Framework</h3>
+          <ul>
+            <li>Giảm sự phụ thuộc giữa các module nhờ DI.</li>
+            <li>Dễ mở rộng, dễ test, dễ bảo trì.</li>
+            <li>Tích hợp mạnh mẽ với Hibernate, JPA, Security, Kafka, v.v.</li>
+            <li>Spring Boot giúp khởi chạy ứng dụng chỉ trong vài giây.</li>
+            <li>Cộng đồng lớn, tài liệu phong phú, cập nhật liên tục.</li>
+          </ul>
+
+          <h3>8. Tổng kết</h3>
+          <p>
+            Spring Framework là lựa chọn hàng đầu cho các lập trình viên Java khi xây dựng ứng dụng web, microservice hoặc hệ thống doanh nghiệp.  
+            Việc hiểu và áp dụng **Dependency Injection**, **IoC Container** và **Spring Boot** sẽ giúp bạn tiết kiệm hàng chục giờ cấu hình và phát triển.
+            <br><br>
+            👉 Hãy bắt đầu với một project Spring Boot nhỏ — tạo một REST API đơn giản, thêm tầng dữ liệu JPA — bạn sẽ hiểu ngay vì sao Spring được gọi là “xương sống của Java backend”.
+          </p>
+
+          <blockquote>
+            <p>“Học Spring là bước chuyển mình từ lập trình Java cơ bản sang xây dựng hệ thống chuyên nghiệp.”</p>
+          </blockquote>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">Java Collections Framework</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+          <img src="images/blog/java-collections-banner.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng ảnh tổng quan về Java Collections (biểu đồ các lớp như List, Set, Map) -->
+          <br><br>
+
+          <h3>Giới thiệu</h3>
+          <p>
+            <strong>Java Collections Framework (JCF)</strong> là nền tảng quan trọng trong lập trình Java, 
+            cung cấp các cấu trúc dữ liệu và thuật toán giúp quản lý, lưu trữ, và xử lý tập hợp đối tượng hiệu quả.  
+            Việc hiểu rõ cách hoạt động của <strong>ArrayList</strong>, <strong>LinkedList</strong>, <strong>HashMap</strong> và các collection khác 
+            giúp lập trình viên tối ưu hiệu suất và lựa chọn cấu trúc phù hợp với từng bài toán.
+          </p>
+
+          <h3>1. Tổng quan về Java Collections Framework</h3>
+          <p>
+            JCF là một <strong>kiến trúc thống nhất</strong> cho việc lưu trữ và thao tác trên dữ liệu.  
+            Framework này gồm bốn thành phần chính:
+          </p>
+          <ul>
+            <li><strong>Interfaces</strong>: định nghĩa các kiểu collection như <code>List</code>, <code>Set</code>, <code>Map</code>.</li>
+            <li><strong>Classes</strong>: triển khai các interface (ví dụ: <code>ArrayList</code>, <code>HashSet</code>, <code>HashMap</code>).</li>
+            <li><strong>Algorithms</strong>: các phương thức tiện ích như sắp xếp, tìm kiếm, đảo ngược trong lớp <code>Collections</code>.</li>
+            <li><strong>Iterator</strong>: cơ chế duyệt qua phần tử trong collection một cách nhất quán.</li>
+          </ul>
+          <br><br>
+          <img src="images/blog/java-collection-hierarchy.png">
+
+          <p>
+            Nó cung cấp một hệ thống các interface, class và thuật toán giúp lập trình viên làm việc với dữ liệu một cách linh hoạt và hiệu quả hơn so với việc sử dụng mảng thông thường.
+          </p>
+
+          <blockquote>
+            <p>“Java Collections Framework – nền tảng vững chắc giúp quản lý dữ liệu hiệu quả và dễ bảo trì.”</p>
+          </blockquote>
+
+          <h3>2. ArrayList – Danh sách động</h3>
+          <p>
+            <code>ArrayList</code> là một <strong>danh sách có kích thước linh hoạt</strong>, cho phép truy cập phần tử nhanh nhờ lưu trữ trong mảng động.
+            Tuy nhiên, việc chèn hoặc xóa phần tử ở giữa danh sách có thể chậm vì phải dịch chuyển dữ liệu.
+          </p>
+          <pre><code class="language-java">import java.util.ArrayList;
+
+            public class DemoArrayList {
+                public static void main(String[] args) {
+                    ArrayList&lt;String&gt; names = new ArrayList&lt;&gt;();
+                    names.add("Alice");
+                    names.add("Bob");
+                    names.add("Charlie");
+
+                    names.remove("Bob");
+                    System.out.println("Danh sách: " + names);
+                }
+            }</code></pre>
+          <p>
+            👉 Dùng <code>ArrayList</code> khi cần <strong>truy cập ngẫu nhiên nhanh</strong> và ít thao tác chèn/xóa giữa danh sách.
+          </p>
+          <br><br>
+          <img src="images/blog/arraylist-diagram.png">
+          <!-- 👉 Nên thay bằng hình minh họa cấu trúc ArrayList -->
+          <br><br>
+
+          <p>
+             Ban đầu, danh sách có các phần tử <code>[2, 3, 11, 7]</code> và lệnh <code>x = L.find(11)</code> được sử dụng để tìm vị trí của phần tử có giá trị 11. Sau khi tìm thấy, con trỏ x trỏ đến phần tử này trong danh sách. 
+             Tiếp theo, lệnh <code>L.insert(5, x)</code> sẽ chèn giá trị 5 vào trước vị trí x, tức là trước phần tử 11. Khi đó, các phần tử phía sau phải dịch chuyển sang phải để tạo khoảng trống, dẫn đến danh sách mới là <code>[2, 5, 3, 11, 7]</code>. 
+             Sau đó, lệnh <code>L.remove(x)</code> được thực hiện để xóa phần tử tại vị trí x, khiến các phần tử phía sau dịch chuyển sang trái nhằm lấp đầy chỗ trống, kết quả danh sách trở lại còn <code>[2, 5, 11, 7]</code>. Cuối cùng, lệnh <code></code>x.next()</code> giúp di chuyển con trỏ sang phần tử kế tiếp trong danh sách.
+          </p>
+
+          <p>
+            Qua ví dụ này có thể thấy, ArrayList là một mảng động cho phép truy cập ngẫu nhiên nhanh thông qua chỉ số, nhưng tốn thời gian khi thực hiện các thao tác chèn hoặc xóa giữa danh sách do phải di chuyển các phần tử.
+          </p>
+
+          <h3>3. LinkedList – Danh sách liên kết</h3>
+          <p>
+            <code>LinkedList</code> lưu phần tử theo dạng <strong>nút liên kết (nodes)</strong>, mỗi nút chứa dữ liệu và tham chiếu đến nút tiếp theo (và trước đó).
+            Điều này giúp thao tác chèn, xóa phần tử nhanh, nhưng việc truy cập ngẫu nhiên sẽ chậm hơn so với ArrayList.
+          </p>
+          <pre><code class="language-java">import java.util.LinkedList;
+
+            public class DemoLinkedList {
+                public static void main(String[] args) {
+                    LinkedList&lt;Integer&gt; numbers = new LinkedList&lt;&gt;();
+                    numbers.addFirst(10);
+                    numbers.addLast(20);
+                    numbers.add(15);
+
+                    System.out.println("LinkedList: " + numbers);
+                }
+            }</code></pre>
+          <p>
+            👉 Dùng <code>LinkedList</code> khi bạn cần <strong>chèn hoặc xóa phần tử thường xuyên</strong>.
+          </p>
+
+          <h3>4. HashMap – Lưu trữ dữ liệu theo cặp Key–Value</h3>
+          <p>
+            <code>HashMap</code> là cấu trúc dữ liệu dùng <strong>bảng băm (hash table)</strong> để lưu trữ và truy xuất giá trị theo khóa.  
+            Nó cho phép tìm kiếm, chèn và xóa dữ liệu rất nhanh (trung bình O(1)).
+          </p>
+          <pre><code class="language-java">import java.util.HashMap;
+
+            public class DemoHashMap {
+                public static void main(String[] args) {
+                    HashMap&lt;String, Integer&gt; scores = new HashMap&lt;&gt;();
+                    scores.put("Alice", 95);
+                    scores.put("Bob", 88);
+                    scores.put("Charlie", 92);
+
+                    System.out.println("Điểm của Alice: " + scores.get("Alice"));
+                }
+            }</code></pre>
+          <br><br>
+          <img src="images/blog/hashmap-structure.png" style="display:block; margin:0 auto;">
+          <br><br>
+
+          <p>
+            Hình minh họa trên mô tả cách hoạt động của <strong>HashMap</strong> – một cấu trúc dữ liệu lưu trữ thông tin dưới dạng cặp <strong>Key–Value</strong> trong Java. Mỗi khóa (key) như <strong>James, Ellen, Bill, hay Susan</strong> sẽ được truyền qua một hàm băm <strong>(hash function)</strong> để tạo ra một chỉ số <strong>(index)</strong> tương ứng trong bảng lưu trữ <strong>(storage)</strong>. 
+            Chỉ số này xác định vị trí mà giá trị <strong>(value)</strong> của khóa sẽ được lưu trữ, ví dụ như các số điện thoại trong hình.
+          </p>
+
+          <p>
+            Cơ chế hoạt động của HashMap cho phép quá trình tìm kiếm, thêm hoặc xóa dữ liệu diễn ra rất nhanh, trung bình chỉ mất O(1) thời gian vì không cần duyệt qua toàn bộ danh sách. Khi có khóa cần tìm, hàm băm sẽ tính toán vị trí lưu trữ và truy xuất trực tiếp giá trị tại đó.
+          </p>
+
+          <h3>5. Các lớp Collection phổ biến khác</h3>
+          <ul>
+            <li><strong>HashSet:</strong> lưu trữ các phần tử duy nhất, không cho phép trùng lặp.</li>
+            <li><strong>TreeSet:</strong> lưu trữ phần tử theo thứ tự tăng dần.</li>
+            <li><strong>PriorityQueue:</strong> hàng đợi ưu tiên với thứ tự dựa trên comparator hoặc giá trị tự nhiên.</li>
+            <li><strong>Vector / Stack:</strong> các lớp cũ tương thích với phiên bản Java trước Collections Framework.</li>
+          </ul>
+
+          <h3>6. Lớp Collections – Thuật toán tiện ích</h3>
+          <p>
+            Lớp <code>Collections</code> cung cấp các phương thức tĩnh hữu ích như:
+          </p>
+          <pre><code class="language-java">import java.util.*;
+
+            public class CollectionsExample {
+                public static void main(String[] args) {
+                    List&lt;Integer&gt; list = Arrays.asList(3, 5, 1, 4, 2);
+
+                    Collections.sort(list);
+                    System.out.println("Sau khi sắp xếp: " + list);
+
+                    Collections.reverse(list);
+                    System.out.println("Đảo ngược: " + list);
+
+                    int max = Collections.max(list);
+                    System.out.println("Phần tử lớn nhất: " + max);
+                }
+            }</code></pre>
+
+          <p>
+            Lớp Collections là một lớp tiện ích <strong>utility class</strong> trong gói java.util, cung cấp nhiều phương thức tĩnh <strong>(static methods)</strong> 
+            để xử lý dữ liệu trong các <strong>collection</strong> — chẳng hạn như sắp xếp <strong>(sort)</strong>, đảo ngược <strong>(reverse)</strong>, tìm phần tử lớn nhất/nhỏ nhất <strong>(max/min)</strong> hoặc trộn ngẫu nhiên <strong>(shuffle)</strong> danh sách.
+          </p>
+
+          <blockquote>
+            <p>“Collections Framework không chỉ lưu trữ dữ liệu – nó giúp bạn thao tác, sắp xếp và tổ chức dữ liệu dễ dàng hơn bao giờ hết.”</p>
+          </blockquote>
+
+          <h3>7. Tổng kết</h3>
+          <p>
+            Java Collections Framework là một phần không thể thiếu trong lập trình Java hiện đại.  
+            Biết chọn đúng cấu trúc dữ liệu giúp chương trình <strong>chạy nhanh hơn, tiêu tốn ít bộ nhớ hơn</strong> và dễ mở rộng hơn.  
+            <br><br>
+            👉 Hãy luyện tập bằng cách thử thay thế <code>ArrayList</code> bằng <code>LinkedList</code> hoặc dùng <code>HashMap</code> để ánh xạ dữ liệu – 
+            bạn sẽ hiểu sâu hơn về sức mạnh thật sự của Collections Framework.
+          </p>
+
+          <blockquote>
+            <p>“Hiểu và sử dụng đúng Collection là một trong những kỹ năng quan trọng nhất của lập trình viên Java.”</p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">JavaScript ES6+ Features</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+
+          <img src="images/blog/js-es6-banner.png">
+          <!-- 👉 Nên thay bằng ảnh minh họa "modern JavaScript code" hoặc "ES6 syntax" -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            JavaScript là ngôn ngữ không ngừng phát triển. Với phiên bản <strong>ES6 (ECMAScript 2015)</strong> và các bản nâng cấp sau đó (ES7, ES8, …), lập trình viên được cung cấp nhiều tính năng mạnh mẽ, giúp viết code <strong>ngắn gọn, dễ đọc và hiệu suất cao hơn</strong>.
+            <br><br>
+            Trong bài viết này, chúng ta sẽ khám phá bốn tính năng nổi bật nhất của ES6+ gồm: <strong>Arrow Functions</strong>, <strong>Destructuring</strong>, <strong>Modules</strong> và <strong>Template Literals</strong>.  
+            Mỗi phần đều có ví dụ minh họa thực tế để bạn dễ hiểu và áp dụng ngay vào dự án của mình.
+          </p>
+
+          <h3>1. Arrow Functions</h3>
+          <p>
+            Arrow Function (hàm mũi tên) giúp viết hàm ngắn gọn hơn và xử lý ngữ cảnh <code>this</code> thông minh hơn.
+          </p>
+          <pre><code class="language-javascript">// Hàm thường
+          function sayHello(name) {
+            return "Hello, " + name;
+          }
+
+          // Arrow function
+          const sayHelloArrow = (name) => `Hello, ${name}`;
+
+          console.log(sayHelloArrow("Thinh")); // Hello, Thinh
+          </code></pre>
+          <p>
+            ✅ Ưu điểm:
+          </p>
+          <ul>
+            <li>Ngắn gọn, rõ ràng — đặc biệt khi dùng callback.</li>
+            <li>Không tạo ngữ cảnh <code>this</code> mới → phù hợp cho các sự kiện hoặc Promise.</li>
+          </ul>
+          <p>
+            ⚠️ Lưu ý: Arrow function không nên dùng làm <code>constructor</code> hoặc với <code>this</code> động.
+          </p>
+          <br><br>
+          <img src="images/blog/js-arrow-func.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng hình minh họa "arrow function syntax" -->
+          <br><br>
+
+          <h3>2. Destructuring Assignment</h3>
+          <p>
+            <strong>Destructuring</strong> cho phép bạn trích xuất giá trị từ mảng hoặc đối tượng nhanh chóng và gán vào biến chỉ bằng một dòng.
+          </p>
+          <pre><code class="language-javascript">// Destructuring mảng
+          const colors = ["red", "green", "blue"];
+          const [first, second] = colors;
+          console.log(first, second); // red green
+
+          // Destructuring object
+          const user = { name: "Thinh", age: 21, country: "VN" };
+          const { name, age } = user;
+          console.log(name, age); // Thinh 21
+                    </code></pre>
+          <p>
+            👉 Tính năng này giúp giảm code lặp, dễ đọc và cực hữu ích khi làm việc với JSON hoặc dữ liệu API phức tạp.
+          </p>
+
+          <blockquote>
+            <p>“Destructuring giúp code JavaScript trông như ngôn ngữ hiện đại — ngắn gọn và trực quan.”</p>
+          </blockquote>
+
+          <h3>3. Template Literals</h3>
+          <p>
+            Template Literals (chuỗi mẫu) cho phép bạn nối chuỗi dễ dàng hơn, hỗ trợ biến và xuống dòng trực tiếp trong chuỗi.
+          </p>
+          <pre><code class="language-javascript">const name = "Thinh";
+            const message = `Xin chào ${name}!
+            Chúc bạn một ngày tốt lành.`;
+
+            console.log(message);
+            /*
+            Kết quả:
+            Xin chào Thinh!
+            Chúc bạn một ngày tốt lành.
+            */
+            </code></pre>
+          <p>
+            🔹 Dấu backtick (<code>`</code>) thay cho dấu nháy đơn/đôi.  
+            🔹 Biến được nhúng bằng cú pháp <code>${variable}</code>.  
+            🔹 Hữu ích khi tạo template HTML hoặc log động.
+          </p>
+
+          <img src="images/blog/js-template-literals.png">
+          <!-- 👉 Nên thay bằng ảnh minh họa cú pháp template literals -->
+          <br><br>
+
+          <p>
+            Hình minh họa cho thấy sự khác biệt giữa cách cũ <strong>(dùng \n để xuống dòng)</strong> và cách mới trong ES6 <strong>(dùng backtick — gọn hơn và dễ đọc hơn)</strong>.
+          </p>
+
+          <h3>4. Modules – Tổ chức mã nguồn chuyên nghiệp</h3>
+          <p>
+            Trước ES6, JavaScript không hỗ trợ import/export chuẩn. Với ES6 Modules, bạn có thể chia code thành nhiều file, tái sử dụng dễ dàng.
+          </p>
+          <pre><code class="language-javascript">// 📁 math.js
+          export const add = (a, b) => a + b;
+          export const multiply = (a, b) => a * b;
+
+          // 📁 app.js
+          import { add, multiply } from './math.js';
+
+          console.log(add(2, 3)); // 5
+          console.log(multiply(4, 5)); // 20
+          </code></pre>
+          <p>
+            ✅ Ưu điểm của Modules:
+          </p>
+          <ul>
+            <li>Dễ bảo trì, tái sử dụng và kiểm thử.</li>
+            <li>Tránh xung đột biến toàn cục.</li>
+            <li>Tích hợp hoàn hảo với công cụ build hiện đại (Webpack, Vite, Rollup,...).</li>
+          </ul>
+
+          <blockquote>
+            <p>“Modules giúp JavaScript tiến gần hơn đến chuẩn lập trình hiện đại — có cấu trúc, có tổ chức và dễ mở rộng.”</p>
+          </blockquote>
+
+          <h3>5. Các tính năng ES6+ khác nên biết</h3>
+          <ul>
+            <li><strong>Let / Const:</strong> Cải thiện quản lý biến, tránh lỗi phạm vi.</li>
+            <li><strong>Spread & Rest Operator:</strong> Dễ dàng gộp hoặc tách dữ liệu.</li>
+            <li><strong>Promises / Async–Await:</strong> Xử lý bất đồng bộ dễ hiểu hơn.</li>
+            <li><strong>Default Parameters:</strong> Gán giá trị mặc định cho hàm.</li>
+          </ul>
+
+          <h3>6. Ví dụ tổng hợp</h3>
+          <p>Dưới đây là ví dụ kết hợp các tính năng ES6 trong một đoạn code ngắn:</p>
+          <pre><code class="language-javascript">const greet = (name = "Guest") => `Hello, ${name}!`;
+
+          const user = { name: "Thinh", age: 21 };
+          const { name, age } = user;
+
+          const scores = [8, 9, 10];
+          const total = scores.reduce((a, b) => a + b, 0);
+
+          console.log(`${greet(name)} You are ${age} years old. Total score: ${total}`);
+          </code></pre>
+
+          <br><br>
+          <img src="images/blog/js-es6-summary.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ tổng quan các tính năng ES6 -->
+          <br><br>
+
+          <p>
+            Hình minh họa bên dưới cho thấy mối quan hệ nội bộ giữa <strong>Function, Generator, và Iterator</strong> trong ES6 — nền tảng cho nhiều tính năng nâng cao như <strong>generator functions</strong> và <strong>async/await</strong> trong JavaScript hiện đại.
+          </p>
+
+          <h3>7. Tổng kết</h3>
+          <p>
+            Các tính năng ES6+ đã thay đổi cách chúng ta viết JavaScript — từ những cú pháp nhỏ như <strong>arrow function</strong> đến cấu trúc module hóa hoàn chỉnh.  
+            <br><br>
+            Nắm vững các tính năng này sẽ giúp bạn viết code:
+          </p>
+          <ul>
+            <li>Ngắn gọn và dễ bảo trì hơn.</li>
+            <li>Dễ làm việc nhóm và tái sử dụng.</li>
+            <li>Tương thích tốt với framework hiện đại (React, Vue, Angular,...).</li>
+          </ul>
+          <p>
+            👉 Hãy luyện tập bằng cách viết lại các đoạn code cũ theo cú pháp ES6, bạn sẽ cảm nhận rõ sự khác biệt!
+          </p>
+
+          <blockquote>
+            <p>“ES6+ không chỉ là bản nâng cấp – nó là nền tảng cho toàn bộ hệ sinh thái JavaScript hiện đại.”</p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

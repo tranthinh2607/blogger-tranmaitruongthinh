@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">Design Patterns in Java</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+
+          <img src="images/blog/java-design-patterns-banner.png">
+          <!-- 👉 Gợi ý ảnh: sơ đồ minh họa các design pattern chính (Singleton, Factory, Observer, MVC) -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            Trong lập trình hướng đối tượng, <strong>Design Patterns</strong> (mẫu thiết kế) là những giải pháp đã được kiểm chứng giúp giải quyết các vấn đề lặp lại trong phát triển phần mềm.  
+            <br><br>
+            Nếu ví lập trình như việc xây nhà, thì design patterns chính là “bản thiết kế” giúp kiến trúc sư (lập trình viên) xây dựng hệ thống <strong>bền vững, mở rộng dễ dàng và dễ bảo trì</strong>.
+            <br><br>
+            Trong bài viết này, chúng ta sẽ khám phá 4 mẫu phổ biến và cực kỳ hữu ích trong Java:  
+            <strong>Singleton, Factory, Observer và MVC pattern</strong> — với ví dụ minh họa chi tiết.
+          </p>
+
+          <h3>1. Singleton Pattern</h3>
+          <p>
+            <strong>Singleton</strong> đảm bảo rằng chỉ có <em>một thể hiện (instance)</em> duy nhất của lớp được tạo ra trong suốt quá trình chạy chương trình.  
+            Mẫu này thường dùng cho các đối tượng chia sẻ tài nguyên — ví dụ như <code>Database Connection</code> hoặc <code>Logger</code>.
+          </p>
+          <pre><code class="language-java">public class Database {
+            private static Database instance;
+
+            private Database() {
+                System.out.println("Kết nối Database...");
+            }
+
+            public static Database getInstance() {
+                if (instance == null) {
+                    instance = new Database();
+                }
+                return instance;
+            }
+        }
+
+        public class Main {
+            public static void main(String[] args) {
+                Database db1 = Database.getInstance();
+                Database db2 = Database.getInstance();
+                System.out.println(db1 == db2); // true – chỉ một instance
+            }
+        }</code></pre>
+          <p>
+            👉 Dùng Singleton khi bạn cần đảm bảo chỉ có một nguồn dữ liệu chung hoặc một cấu hình toàn cục cho toàn ứng dụng.
+          </p>
+
+          <h3>2. Factory Pattern</h3>
+          <p>
+            <strong>Factory</strong> giúp tạo đối tượng mà không cần tiết lộ logic khởi tạo bên trong.  
+            Nó đóng vai trò như “xưởng sản xuất”, nơi bạn chỉ yêu cầu loại sản phẩm và factory sẽ trả về đối tượng phù hợp.
+          </p>
+          <pre><code class="language-java">interface Shape {
+            void draw();
+        }
+
+        class Circle implements Shape {
+            public void draw() {
+                System.out.println("Vẽ hình tròn");
+            }
+        }
+
+        class Square implements Shape {
+            public void draw() {
+                System.out.println("Vẽ hình vuông");
+            }
+        }
+
+        class ShapeFactory {
+            public Shape getShape(String type) {
+                if (type.equalsIgnoreCase("circle")) return new Circle();
+                if (type.equalsIgnoreCase("square")) return new Square();
+                return null;
+            }
+        }
+
+        public class FactoryDemo {
+            public static void main(String[] args) {
+                ShapeFactory factory = new ShapeFactory();
+                Shape shape1 = factory.getShape("circle");
+                shape1.draw(); // Vẽ hình tròn
+            }
+        }</code></pre>
+          <p>
+            👉 Factory pattern giúp bạn <strong>đóng gói quá trình khởi tạo</strong>, giảm sự phụ thuộc giữa các lớp, và giúp mở rộng dễ dàng hơn khi thêm loại đối tượng mới.
+          </p>
+
+          <h3>3. Observer Pattern</h3>
+          <p>
+            <strong>Observer</strong> là mẫu thiết kế giúp <strong>một đối tượng (Subject)</strong> tự động thông báo cho <strong>các đối tượng khác (Observers)</strong> khi có thay đổi xảy ra.  
+            Nó rất hữu ích trong hệ thống sự kiện, GUI, hoặc mô hình publish–subscribe.
+          </p>
+          <pre><code class="language-java">import java.util.*;
+
+            interface Observer {
+                void update(String message);
+            }
+
+            class User implements Observer {
+                private String name;
+                public User(String name) { this.name = name; }
+
+                public void update(String message) {
+                    System.out.println(name + " nhận thông báo: " + message);
+                }
+            }
+
+            class Channel {
+                private List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();
+
+                public void subscribe(Observer o) { observers.add(o); }
+                public void unsubscribe(Observer o) { observers.remove(o); }
+
+                public void notifyAll(String message) {
+                    for (Observer o : observers) {
+                        o.update(message);
+                    }
+                }
+            }
+
+            public class ObserverDemo {
+                public static void main(String[] args) {
+                    Channel channel = new Channel();
+                    User u1 = new User("Alice");
+                    User u2 = new User("Bob");
+
+                    channel.subscribe(u1);
+                    channel.subscribe(u2);
+
+                    channel.notifyAll("Video mới: Design Patterns trong Java!");
+                }
+            }</code></pre>
+          <p>
+            👉 Khi có nhiều đối tượng phụ thuộc vào một đối tượng chính, Observer giúp tự động cập nhật mà không cần liên kết chặt chẽ giữa chúng.
+          </p>
+
+          <h3>4. MVC Pattern</h3>
+          <p>
+            <strong>MVC (Model–View–Controller)</strong> là mẫu thiết kế kiến trúc phổ biến nhất trong các ứng dụng web và desktop.  
+            Nó tách chương trình thành 3 phần:
+          </p>
+          <ul>
+            <li><strong>Model</strong> – Quản lý dữ liệu và logic nghiệp vụ.</li>
+            <li><strong>View</strong> – Giao diện người dùng hiển thị dữ liệu.</li>
+            <li><strong>Controller</strong> – Nhận thao tác người dùng và điều phối luồng dữ liệu giữa Model và View.</li>
+          </ul>
+          <pre><code class="language-java">// Model
+        class Student {
+            private String name;
+            public Student(String name) { this.name = name; }
+            public String getName() { return name; }
+        }
+
+        // View
+        class StudentView {
+            public void showStudent(String name) {
+                System.out.println("Tên sinh viên: " + name);
+            }
+        }
+
+        // Controller
+        class StudentController {
+            private Student model;
+            private StudentView view;
+
+            public StudentController(Student model, StudentView view) {
+                this.model = model;
+                this.view = view;
+            }
+
+            public void updateView() {
+                view.showStudent(model.getName());
+            }
+        }
+
+        public class MVCDemo {
+            public static void main(String[] args) {
+                Student model = new Student("Trần Thịnh");
+                StudentView view = new StudentView();
+                StudentController controller = new StudentController(model, view);
+                controller.updateView();
+            }
+        }</code></pre>
+          <p>
+            👉 MVC giúp tách biệt logic xử lý và giao diện, làm cho ứng dụng <strong>dễ mở rộng, bảo trì và kiểm thử hơn</strong>.
+          </p>
+
+          <blockquote>
+            <p>“Pattern không làm code của bạn phức tạp hơn — mà làm cho nó dễ hiểu và bền vững hơn.”</p>
+          </blockquote>
+
+          <h3>5. Khi nào nên dùng Design Patterns?</h3>
+          <p>
+            Không phải dự án nào cũng cần áp dụng tất cả patterns.  
+            Hãy dùng chúng khi:
+          </p>
+          <ul>
+            <li>Bạn nhận thấy logic đang bị lặp lại nhiều lần.</li>
+            <li>Ứng dụng cần mở rộng, thay đổi hành vi mà không muốn sửa code cũ.</li>
+            <li>Bạn muốn giao tiếp rõ ràng giữa các phần của hệ thống.</li>
+          </ul>
+
+          <h3>6. Tổng kết</h3>
+          <p>
+            Design Patterns là “bí quyết” để viết code hướng đối tượng chuyên nghiệp và có tính hệ thống.  
+            <strong>Singleton</strong> giúp kiểm soát thể hiện, <strong>Factory</strong> đơn giản hóa khởi tạo,  
+            <strong>Observer</strong> tạo ra luồng sự kiện linh hoạt, và <strong>MVC</strong> giúp tổ chức dự án khoa học.
+            <br><br>
+            👉 Bắt đầu bằng việc luyện tập từng pattern nhỏ, sau đó kết hợp chúng trong các project thực tế —  
+            bạn sẽ cảm nhận được sức mạnh thật sự của lập trình hướng đối tượng.
+          </p>
+
+          <blockquote>
+            <p>“Hiểu pattern là bước đầu để trở thành kiến trúc sư phần mềm, chứ không chỉ là người viết code.”</p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

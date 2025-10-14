@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+      <article class="single-blog">
+        <p class="title">Java Object-Oriented Programming</p>
+        <ul class="meta">
+          <li>By <a href="about.html">TRAN THINH</a></li>
+          <li><i class="fa fa-clock-o"></i> October 19, 2024</li>
+        </ul>
+
+        <!-- HERO IMAGE -->
+        <!-- Suggested image: developer coding Java OOP concepts on screen -->
+        <img src="images/blog/joop1.png" style="display:block; margin:0 auto;">
+        <br>
+
+        <h3>Vì sao Lập trình Hướng đối tượng (OOP) lại quan trọng trong Java?</h3>
+        <p>
+          Khi nhắc đến Java, điều đầu tiên mà lập trình viên nghĩ tới chính là <strong>Object-Oriented Programming (OOP)</strong>.  
+          Đây không chỉ là một phong cách lập trình – mà là cách bạn **tư duy và tổ chức hệ thống phần mềm**.
+        </p>
+        <p>
+          Nhờ OOP, các dự án Java trở nên <em>dễ mở rộng, dễ bảo trì</em> và <em>dễ hiểu</em> hơn nhiều so với lập trình tuyến tính.  
+          Hầu hết các ứng dụng Java thực tế – từ Android đến backend Spring Boot – đều xoay quanh bốn trụ cột chính của OOP:
+          <strong>Classes</strong>, <strong>Objects</strong>, <strong>Inheritance</strong>, <strong>Polymorphism</strong>, và <strong>Encapsulation</strong>.
+        </p>
+
+        <h3>1. Classes &amp; Objects — Nền móng của OOP</h3>
+        <p>
+          Một <strong>Class</strong> là bản thiết kế (blueprint), còn <strong>Object</strong> là sản phẩm cụ thể được tạo ra từ bản thiết kế đó.  
+          Mỗi class định nghĩa <em>thuộc tính</em> (fields) và <em>hành vi</em> (methods).
+        </p>
+
+        <!-- IMAGE -->
+        <img src="images/blog/joop2.png">
+        <br>
+
+        <p>Ví dụ nhỏ:</p>
+        <pre><code>public class Person {
+          private String name;
+          private int age;
+
+          public Person(String name, int age) {
+              this.name = name;
+              this.age = age;
+          }
+
+          public String getName() { return name; }
+          public int getAge() { return age; }
+      }
+
+      // Tạo đối tượng
+      Person p = new Person("An", 25);
+      System.out.println(p.getName());
+              </code></pre>
+
+        <p>
+          Ở ví dụ này, <code>Person</code> là class, còn <code>p</code> là object cụ thể.  
+          Mỗi object có dữ liệu riêng biệt và các hành vi được định nghĩa sẵn trong class.
+        </p>
+
+        <h3>2. Inheritance — Kế thừa để tái sử dụng và mở rộng</h3>
+        <p>
+          <strong>Kế thừa</strong> giúp bạn xây dựng class mới dựa trên class cũ, kế thừa thuộc tính và phương thức, đồng thời có thể mở rộng hoặc ghi đè (override) hành vi.  
+          Điều này thể hiện mối quan hệ <em>“is-a”</em>: một lớp con <em>là</em> một phiên bản mở rộng của lớp cha.
+        </p>
+
+        <!-- IMAGE -->
+        <img src="images/blog/joop3.png" alt="Java inheritance diagram - Animal to Dog and Cat" style="display:block; margin:0 auto;">
+        <br>
+
+        <p>
+          Kế thừa <strong>Inheritance</strong> cho phép tạo ra một lớp mới <strong>subclass</strong> dựa trên lớp có sẵn <strong>superclass</strong>.
+          Lớp con sẽ kế thừa toàn bộ thuộc tính và phương thức của lớp cha, đồng thời mở rộng hoặc ghi đè <strong>override</strong> hành vi của nó.
+        </p>
+
+        <p>
+          Điều này thể hiện mối quan hệ <em>“is-a”</em> — tức là một lớp con là một phiên bản cụ thể hơn của lớp cha.
+        </p>
+
+        <p>Ví dụ:</p>
+
+        <pre><code>public class Animal {
+            public void speak() {
+                System.out.println("Animal sound");
+            }
+        }
+
+        public class Dog extends Animal {
+            @Override
+            public void speak() {
+                System.out.println("Woof!");
+            }
+        }
+
+        // Demo
+        Animal a = new Dog();
+        a.speak(); // Output: Woof!
+                </code></pre>
+
+        <p>
+          Nhờ kế thừa, bạn có thể tái sử dụng logic sẵn có và thêm đặc tính mới mà không phải viết lại toàn bộ mã.
+        </p>
+
+        <h3>3. Polymorphism — Một hành vi, nhiều cách thể hiện</h3>
+        <p>
+          <strong>Polymorphism (Đa hình)</strong> cho phép cùng một phương thức có thể hoạt động khác nhau tùy theo đối tượng cụ thể.  
+          Java hỗ trợ hai loại đa hình:
+        </p>
+        <ul>
+          <li><strong>Compile-time polymorphism</strong> – thông qua <em>method overloading</em></li>
+          <li><strong>Run-time polymorphism</strong> – thông qua <em>method overriding</em></li>
+        </ul>
+
+        <!-- IMAGE -->
+        <img src="images/blog/joop4.png" alt="Polymorphism diagram - same method, different objects" style="display:block; margin:0 auto;">
+        <br>
+
+        <p>
+          <strong>Đa hình</strong> giúp code trở nên linh hoạt và dễ mở rộng hơn.  
+          Bạn có thể thêm các lớp mới mà không cần thay đổi mã hiện có, chỉ cần đảm bảo chúng tuân theo cùng một giao diện hoặc kế thừa từ cùng một lớp cha.
+        </p>
+
+        <p><em>Ví dụ Overloading:</em></p>
+        <pre><code>public class MathUtil {
+            public int sum(int a, int b) { return a + b; }
+            public double sum(double a, double b) { return a + b; }
+        }
+                </code></pre>
+
+                <p><em>Ví dụ Overriding:</em></p>
+                <pre><code>class Parent { void show() { System.out.println("Parent"); } }
+        class Child extends Parent { 
+            @Override 
+            void show() { System.out.println("Child"); } 
+        }
+        </code></pre>
+
+        <p>
+          Khi gọi <code>show()</code> trên một biến kiểu <code>Parent</code> nhưng trỏ đến đối tượng <code>Child</code>, phương thức của lớp con sẽ được thực thi — đây chính là sức mạnh thật sự của đa hình.
+        </p>
+
+        <h3>4. Encapsulation — Bảo vệ dữ liệu của bạn</h3>
+        <p>
+          <strong>Encapsulation</strong> giúp ẩn chi tiết bên trong của đối tượng, chỉ cung cấp những gì cần thiết qua các phương thức công khai (getters/setters).  
+          Điều này đảm bảo tính toàn vẹn dữ liệu và ngăn việc truy cập trực tiếp từ bên ngoài.
+        </p>
+
+        <!-- IMAGE -->
+        <img src="images/blog/joop5.png" alt="Encapsulation illustration with private fields and public methods" style="display:block; margin:0 auto;">
+        <br>
+
+        <p>
+          Encapsulation là việc gộp dữ liệu <strong>thuộc tính</strong> và các phương thức (hành vi) thao tác trên dữ liệu đó vào trong một đơn vị duy nhất <strong>một lớp - class</strong>.
+          Bằng cách đóng gói, bạn kiểm soát cách dữ liệu được truy cập và sửa đổi, giúp hệ thống trở nên ổn định và an toàn hơn.
+        </p>
+
+        <p>Ví dụ:</p>
+
+        <pre><code>public class Account {
+          private double balance;
+
+          public Account(double init) { this.balance = init; }
+
+          public double getBalance() { return balance; }
+
+          public void deposit(double amount) {
+              if (amount > 0) balance += amount;
+          }
+      }
+
+          Account acc = new Account(100);
+          acc.deposit(50);
+          System.out.println(acc.getBalance()); // 150
+        </code></pre>
+
+        <p>
+          Nhờ đóng gói, các đối tượng được “bảo vệ” khỏi việc sửa đổi không mong muốn, giúp hệ thống ổn định và an toàn hơn.
+        </p>
+
+        <h3>5. Thực hành tốt khi áp dụng OOP trong Java</h3>
+        <ul>
+          <li><strong>Tuân thủ nguyên tắc SRP</strong> – mỗi class chỉ nên có một trách nhiệm duy nhất.</li>
+          <li><strong>Ưu tiên Composition hơn Inheritance</strong> – khi có thể, sử dụng “has-a” thay vì “is-a”.</li>
+          <li><strong>Giữ dữ liệu ở mức private</strong>, chỉ cung cấp getter/setter khi thực sự cần.</li>
+          <li><strong>Dùng interface</strong> để tách biệt phần định nghĩa hành vi khỏi phần triển khai cụ thể.</li>
+          <li><strong>Refactor thường xuyên</strong> để code luôn rõ ràng và có thể mở rộng.</li>
+        </ul>
+
+        <blockquote>
+          <p>“Viết code hướng đối tượng không chỉ là kỹ thuật — đó là nghệ thuật tổ chức tư duy logic thành cấu trúc dễ hiểu.”</p>
+        </blockquote>
+
+        <h3>Kết luận &amp; Hướng phát triển</h3>
+        <p>
+          Bốn trụ cột của OOP — <strong>Classes</strong>, <strong>Objects</strong>, <strong>Inheritance</strong>, <strong>Polymorphism</strong>, và <strong>Encapsulation</strong> — chính là nền tảng của mọi ứng dụng Java hiện đại.  
+          Khi nắm vững chúng, bạn sẽ dễ dàng xây dựng những hệ thống lớn, dễ bảo trì và có thể mở rộng trong tương lai.
+        </p>
+
+        <p>
+          <em>Gợi ý:</em> hãy tự xây dựng một mini project như “Quản lý sinh viên” hoặc “Ứng dụng quản lý sản phẩm” để luyện tập OOP.  
+          Mỗi lần bạn cải tiến class, tách interface, hoặc tái sử dụng code – bạn đang tiến gần hơn đến tư duy lập trình chuyên nghiệp.
+        </p>
+
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="instagram">
+    <a href="#" style="color: #fff; text-decoration: none;">
+      <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+      <span style="color: #fff;">@truongthinh2k04</span>
+    </a>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

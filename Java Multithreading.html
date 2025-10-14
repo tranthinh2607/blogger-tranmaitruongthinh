@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">Java Multithreading</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+
+          <img src="images/blog/java-multithreading-banner.png">
+          <!-- 👉 Nên thay bằng ảnh minh họa luồng xử lý song song hoặc CPU core visualization -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            Trong thế giới hiện đại, tốc độ và hiệu năng là yếu tố sống còn của ứng dụng.  
+            <strong>Java Multithreading</strong> cho phép bạn thực thi nhiều tác vụ đồng thời (song song) trong cùng một chương trình, 
+            giúp tận dụng tối đa tài nguyên CPU và cải thiện trải nghiệm người dùng.  
+            <br><br>
+            Trong bài viết này, chúng ta sẽ tìm hiểu những khái niệm then chốt: <strong>Thread</strong>, <strong>Runnable Interface</strong>, 
+            <strong>Synchronization</strong> và <strong>Concurrent Programming</strong> trong Java — cùng các ví dụ minh họa dễ hiểu.
+          </p>
+
+          <h3>1. Thread là gì?</h3>
+          <p>
+            Một <strong>Thread</strong> (luồng) là đơn vị nhỏ nhất của tiến trình (process) có thể được CPU xử lý độc lập.  
+            Khi bạn chạy một chương trình Java, mặc định luôn có ít nhất một luồng — gọi là <code>main thread</code>.
+          </p>
+          <img src="images/blog/java-thread-concept.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ mô tả main thread và worker thread -->
+          <br>
+          <p>
+            Mỗi luồng có thể thực thi một nhiệm vụ riêng biệt, và nhiều luồng có thể chạy đồng thời trên các lõi CPU khác nhau.  
+            Điều này giúp chương trình của bạn phản hồi nhanh hơn, đặc biệt khi xử lý các tác vụ nặng như I/O, tính toán phức tạp, hay giao tiếp mạng.
+          </p>
+          <p>
+            Để tạo và quản lý luồng trong Java, bạn có thể sử dụng lớp <code>Thread</code> hoặc triển khai <code>Runnable interface</code>.
+          </p>
+          <p>
+            Tại một thời điểm trong quá trình thực thi, <code>Main thread</code> khởi tạo và gọi phương thức <code>start()</code> để tạo ra Worker thread (luồng phụ).
+            Kể từ đó, cả hai luồng chạy song song, mỗi luồng đảm nhiệm một phần công việc riêng biệt
+          </p>
+          <p>
+            Bạn có thể tạo luồng mới bằng hai cách phổ biến:
+          </p>
+          <ul>
+            <li>Kế thừa lớp <code>Thread</code> và override phương thức <code>run()</code>.</li>
+            <li>Triển khai <code>Runnable interface</code> và truyền vào đối tượng Thread.</li>
+          </ul>
+
+          <pre><code class="language-java">class MyThread extends Thread {
+            public void run() {
+                for (int i = 1; i &lt;= 5; i++) {
+                    System.out.println(Thread.currentThread().getName() + " đang chạy: " + i);
+                }
+            }
+        }
+
+        public class ThreadDemo {
+            public static void main(String[] args) {
+                MyThread t1 = new MyThread();
+                MyThread t2 = new MyThread();
+
+                t1.start();
+                t2.start();
+            }
+          }</code></pre>
+          <p>
+            👉 Mỗi khi bạn gọi <code>start()</code>, Java tạo ra một luồng riêng biệt để thực thi phương thức <code>run()</code>.
+          </p>
+
+          <h3>2. Sử dụng Runnable Interface</h3>
+          <p>
+            Cách khuyến khích trong Java hiện đại là dùng <strong>Runnable interface</strong>, vì nó tách biệt logic chạy với cơ chế tạo luồng.
+          </p>
+          <pre><code class="language-java">class PrintTask implements Runnable {
+    public void run() {
+        for (int i = 1; i &lt;= 3; i++) {
+            System.out.println(Thread.currentThread().getName() + " in số: " + i);
+        }
+    }
+}
+
+        public class RunnableExample {
+            public static void main(String[] args) {
+                Thread t1 = new Thread(new PrintTask(), "Thread-1");
+                Thread t2 = new Thread(new PrintTask(), "Thread-2");
+                t1.start();
+                t2.start();
+            }
+          }</code></pre>
+          <p>
+            👉 Cách này giúp code dễ tái sử dụng, linh hoạt hơn, đặc biệt khi bạn dùng Executor Framework hoặc thread pool.
+          </p>
+
+          <h3>3. Synchronization – Tránh xung đột dữ liệu</h3>
+          <p>
+            Khi nhiều luồng cùng truy cập và chỉnh sửa một tài nguyên (ví dụ biến dùng chung), có thể xảy ra xung đột (race condition).  
+            <br>
+            Java cung cấp <strong>từ khóa <code>synchronized</code></strong> để đảm bảo chỉ một luồng được truy cập tài nguyên tại một thời điểm.
+          </p>
+          <pre><code class="language-java">class Counter {
+            private int count = 0;
+
+            public synchronized void increment() {
+                count++;
+            }
+
+            public int getCount() {
+                return count;
+            }
+        }
+
+      public class SyncExample {
+          public static void main(String[] args) throws InterruptedException {
+              Counter counter = new Counter();
+
+              Runnable task = () -> {
+                  for (int i = 0; i &lt; 1000; i++) {
+                      counter.increment();
+                  }
+              };
+
+              Thread t1 = new Thread(task);
+              Thread t2 = new Thread(task);
+              t1.start(); t2.start();
+              t1.join(); t2.join();
+
+              System.out.println("Kết quả cuối cùng: " + counter.getCount());
+          }
+        }</code></pre>
+          <p>
+            👉 Từ khóa <code>synchronized</code> giúp tránh lỗi dữ liệu không nhất quán trong môi trường đa luồng.
+          </p>
+
+          <h3>4. Concurrent Programming – Lập trình song song hiệu quả</h3>
+          <p>
+            Khi chương trình có nhiều tác vụ cần chạy đồng thời (ví dụ: đọc file, xử lý dữ liệu, gọi API),  
+            bạn có thể dùng **Executor Framework** để quản lý luồng thay vì tự tạo từng Thread thủ công.
+          </p>
+          <pre><code class="language-java">import java.util.concurrent.*;
+
+          public class ExecutorDemo {
+              public static void main(String[] args) {
+                  ExecutorService executor = Executors.newFixedThreadPool(3);
+
+                  for (int i = 1; i &lt;= 5; i++) {
+                      int taskId = i;
+                      executor.execute(() -> {
+                          System.out.println("Đang xử lý tác vụ " + taskId + " bởi " + Thread.currentThread().getName());
+                      });
+                  }
+
+                  executor.shutdown();
+              }
+            }</code></pre>
+          <p>
+            👉 Executor Framework giúp tái sử dụng luồng, giảm chi phí tạo mới và tối ưu hiệu suất.
+          </p>
+
+          <img src="images/blog/java-concurrent-diagram.png">
+          <!-- 👉 Nên thay bằng sơ đồ mô tả Thread Pool hoặc luồng xử lý song song -->
+          <br>
+          <p>
+            Hình trên mô tả cơ chế hoạt động của Executor Framework trong Java – một công cụ mạnh mẽ giúp quản lý và tối ưu việc chạy song song (concurrent programming).
+          <p>
+          <li>Bên trái là nhiều <strong>Runnable tasks</strong> – các công việc độc lập cần được thực thi. Thay vì tạo mới một luồng (thread) cho từng tác vụ, các công việc này được đưa vào một <strong>Runnable Queue</strong> (hàng đợi tác vụ).</li>
+          </p>
+          <p>
+          <li>Phía bên phải là <strong>Executor</strong>, nơi chứa sẵn một nhóm luồng (pool of threads). Các luồng này sẽ lần lượt lấy nhiệm vụ từ hàng đợi và thực thi chúng.</li>
+          </p>
+          <p>
+          Khi một luồng hoàn thành công việc, nó không bị hủy, mà được tái sử dụng cho tác vụ tiếp theo trong hàng đợi.
+          </p>
+          <p>
+          Cách làm này giúp giảm chi phí khởi tạo luồng mới, tăng hiệu suất, và tối ưu việc xử lý đồng thời trong các ứng dụng lớn.
+          </p>
+
+          <p>
+          Nói cách khác, Executor Framework đóng vai trò “bộ điều phối thông minh”: nhận nhiệm vụ, xếp hàng chờ, phân phối cho các luồng sẵn có, và đảm bảo mọi tác vụ được thực thi hiệu quả mà không gây quá tải tài nguyên hệ thống.
+          </p>
+
+          <blockquote>
+            <p>“Concurrency không chỉ là làm nhiều việc cùng lúc — mà là tối ưu cách CPU chia sẻ thời gian giữa các tác vụ.”</p>
+          </blockquote>
+
+          <h3>5. Một ví dụ hoàn chỉnh</h3>
+          <p>
+            Dưới đây là chương trình kết hợp nhiều kỹ thuật multithreading trong một ví dụ thực tế: xử lý danh sách công việc song song.
+          </p>
+          <pre><code class="language-java">import java.util.*;
+          import java.util.concurrent.*;
+
+          public class TaskManager {
+              public static void main(String[] args) throws InterruptedException {
+                  List&lt;String&gt; tasks = Arrays.asList("Download", "Parse Data", "Save File", "Upload");
+                  ExecutorService executor = Executors.newFixedThreadPool(2);
+
+                  for (String task : tasks) {
+                      executor.submit(() -> {
+                          System.out.println(Thread.currentThread().getName() + " đang xử lý: " + task);
+                          try { Thread.sleep(1000); } catch (InterruptedException ignored) {}
+                          System.out.println(task + " ✅ hoàn tất!");
+                      });
+                  }
+
+                  executor.shutdown();
+                  executor.awaitTermination(5, TimeUnit.SECONDS);
+                  System.out.println("👉 Tất cả tác vụ đã hoàn thành!");
+              }
+          }</code></pre>
+
+          <h3>6. Best Practices khi lập trình đa luồng</h3>
+          <ul>
+            <li>Luôn dùng <code>ExecutorService</code> thay vì tạo Thread thủ công.</li>
+            <li>Tránh chia sẻ biến toàn cục — nếu cần, dùng <code>synchronized</code> hoặc lớp thread-safe như <code>AtomicInteger</code>.</li>
+            <li>Dùng <code>join()</code> để đồng bộ kết quả khi cần chờ luồng hoàn tất.</li>
+            <li>Luôn gọi <code>shutdown()</code> sau khi dùng Executor để giải phóng tài nguyên.</li>
+            <li>Dùng thư viện <code>java.util.concurrent</code> để xử lý các tác vụ phức tạp (BlockingQueue, Future, Semaphore, ...).</li>
+          </ul>
+
+          <h3>Tổng kết</h3>
+          <p>
+            <strong>Multithreading</strong> là công cụ mạnh mẽ giúp ứng dụng Java trở nên nhanh hơn, phản hồi tốt hơn và tận dụng tối đa phần cứng.  
+            Nắm vững các khái niệm như Thread, Runnable, Synchronization và Concurrent Framework sẽ giúp bạn xử lý các bài toán thực tế hiệu quả.  
+            <br><br>
+            👉 Bắt đầu bằng những ví dụ nhỏ — rồi dần xây dựng ứng dụng có nhiều tác vụ chạy đồng thời để cảm nhận sức mạnh thực sự của Java Multithreading!
+          </p>
+
+          <blockquote>
+            <p>“Code tốt không chỉ chạy đúng — mà còn chạy nhanh và hiệu quả nhờ sức mạnh của đa luồng.”</p>
+          </blockquote>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

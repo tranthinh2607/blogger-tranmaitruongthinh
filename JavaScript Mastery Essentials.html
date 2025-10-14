@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">JavaScript Mastery: Essentials</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+          <img src="images/blog/js-mastery-banner.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng ảnh minh họa tổng quan về JavaScript: code syntax, biến, hàm và đối tượng -->
+
+          <br><br>
+          <h3>Giới thiệu</h3>
+          <p>
+            <strong>JavaScript</strong> là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay,  
+            được sử dụng để xây dựng các ứng dụng web, mobile, và thậm chí cả ứng dụng desktop.  
+            Nếu HTML là <strong>bộ xương</strong> và CSS là <strong></strong>lớp da</strong> của trang web, thì JavaScript chính là <strong>trái tim</strong> giúp trang web trở nên sống động và có khả năng tương tác.
+            <br><br>
+            Bài viết này sẽ hướng dẫn bạn nắm vững các khái niệm nền tảng trong JavaScript, bao gồm: <strong>biến (variables)</strong>, <strong>hàm (functions)</strong>, <strong>đối tượng (objects)</strong>, và các <strong>tính năng mới của ES6+</strong>.  
+            Dù bạn là người mới bắt đầu hay đã có kinh nghiệm lập trình, hiểu rõ những phần này sẽ giúp bạn tiến xa hơn trong việc phát triển ứng dụng web hiện đại.
+          </p>
+
+          <h3>1. Biến (Variables) – Nền tảng của JavaScript</h3>
+          <p>
+            Biến trong JavaScript dùng để lưu trữ dữ liệu. Từ ES6 trở đi, có ba cách để khai báo biến:
+          </p>
+          <ul>
+            <li><code>var</code> – dùng trong các phiên bản cũ, có phạm vi function (function scope).</li>
+            <li><code>let</code> – có phạm vi khối (block scope), thường được dùng trong vòng lặp hoặc câu điều kiện.</li>
+            <li><code>const</code> – dùng cho hằng số, giá trị không thể thay đổi sau khi gán.</li>
+          </ul>
+          <pre><code class="language-javascript">var name = "Thinh";
+            let age = 21;
+            const country = "Vietnam";
+
+            console.log(`Xin chào, tôi là ${name}, ${age} tuổi, đến từ ${country}.`);</code></pre>
+          <p>
+            Việc sử dụng <code>let</code> và <code>const</code> giúp mã của bạn an toàn hơn, tránh bị “rò rỉ phạm vi” hoặc ghi đè biến ngoài ý muốn.
+          </p>
+
+          <h3>2. Kiểu dữ liệu (Data Types)</h3>
+          <p>
+            JavaScript là ngôn ngữ <strong>động (dynamic typing)</strong>, nghĩa là bạn không cần khai báo kiểu dữ liệu khi tạo biến.  
+            Các kiểu dữ liệu cơ bản gồm:
+          </p>
+          <ul>
+            <li><strong>String</strong> – Chuỗi ký tự, ví dụ: "Hello".</li>
+            <li><strong>Number</strong> – Số (cả nguyên và thực).</li>
+            <li><strong>Boolean</strong> – Giá trị đúng hoặc sai (true/false).</li>
+            <li><strong>Object</strong> – Tập hợp các cặp khóa–giá trị.</li>
+            <li><strong>Array</strong> – Danh sách các phần tử.</li>
+            <li><strong>Null</strong> và <strong>Undefined</strong> – Đại diện cho “không có giá trị”.</li>
+          </ul>
+
+          <h3>3. Hàm (Functions) – Linh hồn của chương trình</h3>
+          <p>
+            Hàm giúp tái sử dụng mã và tổ chức logic chương trình rõ ràng hơn.  
+            Bạn có thể định nghĩa hàm bằng nhiều cách khác nhau:
+          </p>
+          <pre><code class="language-javascript">// Cách khai báo thông thường
+            function greet(name) {
+              return `Xin chào, ${name}!`;
+            }
+
+            // Cách viết với arrow function (ES6)
+            const greetArrow = (name) => `Xin chào, ${name}!`;
+
+            console.log(greet("Thinh"));
+            console.log(greetArrow("Tran")); </code></pre>
+          <p>
+            <strong>Arrow function</strong> mang lại cú pháp ngắn gọn và tự động ràng buộc ngữ cảnh <code>this</code> – điều rất hữu ích khi làm việc trong các đối tượng hoặc callback.
+          </p>
+
+          <h3>4. Đối tượng (Objects) – Cấu trúc dữ liệu mạnh mẽ</h3>
+          <p>
+            Mọi thứ trong JavaScript đều là đối tượng (object), hoặc có thể được coi như một đối tượng.  
+            Đối tượng cho phép lưu trữ và quản lý thông tin dưới dạng cặp <code>key: value</code>.
+          </p>
+          <pre><code class="language-javascript">const student = {
+          name: "Thinh Tran",
+          age: 21,
+          course: "Software Engineering",
+          greet() {
+            console.log(`Xin chào, tôi là ${this.name} và tôi học ${this.course}.`);
+          }
+        };
+
+        student.greet();</code></pre>
+          <p>
+            Bạn có thể thêm, xóa hoặc chỉnh sửa thuộc tính của object một cách linh hoạt,  
+            và kết hợp chúng với hàm để mô phỏng các đối tượng trong thế giới thực (OOP – Lập trình hướng đối tượng).
+          </p>
+
+          <h3>5. Mảng (Arrays) và các phương thức quan trọng</h3>
+          <p>
+            Mảng là danh sách có thứ tự, dùng để lưu trữ nhiều giá trị trong một biến.  
+            JavaScript cung cấp nhiều phương thức mạnh mẽ để xử lý mảng, chẳng hạn như <code>map()</code>, <code>filter()</code>, và <code>reduce()</code>.
+          </p>
+          <pre><code class="language-javascript">const scores = [80, 92, 75, 60, 100];
+
+          const passed = scores.filter(score => score >= 80);
+          console.log("Điểm đạt:", passed);
+
+          const average = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+          console.log("Điểm trung bình:", average);</code></pre>
+
+          <h3>6. ES6+ Features – Những cải tiến hiện đại</h3>
+          <p>
+            Phiên bản ECMAScript 6 (ES6) đã mang đến nhiều thay đổi lớn, giúp JavaScript trở nên mạnh mẽ và dễ viết hơn.  
+            Dưới đây là một số tính năng nổi bật:
+          </p>
+          <ul>
+            <li><strong>Template literals</strong> – cho phép nối chuỗi dễ dàng với cú pháp <code>${}</code>.</li>
+            <li><strong>Destructuring</strong> – trích xuất dữ liệu từ mảng hoặc đối tượng.</li>
+            <li><strong>Spread / Rest Operator (...)</strong> – sao chép hoặc gộp dữ liệu linh hoạt.</li>
+            <li><strong>Modules</strong> – chia nhỏ chương trình thành các file độc lập.</li>
+          </ul>
+          <pre><code class="language-javascript">const person = { name: "Thinh", age: 21 };
+          const { name, age } = person;
+
+          console.log(`Tên: ${name}, Tuổi: ${age}`);
+
+          const nums = [1, 2, 3];
+          const extended = [...nums, 4, 5];
+          console.log(extended);</code></pre>
+
+          <h3>7. Tổng kết</h3>
+          <p>
+            Việc hiểu sâu các khái niệm cơ bản như <strong>biến</strong>, <strong>hàm</strong>, <strong>đối tượng</strong> và <strong>tính năng ES6+</strong> là nền tảng giúp bạn làm chủ JavaScript.  
+            Đây là bước khởi đầu cần thiết trước khi bạn tiến đến các chủ đề nâng cao hơn như bất đồng bộ (async/await), DOM manipulation, hoặc framework hiện đại như React, Vue hay Angular.
+          </p>
+
+          <img src="images/blog/happy.png" style="display:block; margin:0 auto;">
+          <br><br>
+          <p>
+            👉 Hãy thực hành từng phần nhỏ, kết hợp thử nghiệm trong trình duyệt hoặc môi trường Node.js để hiểu rõ hơn cách JavaScript hoạt động.
+          </p>
+
+          <blockquote>
+            <p>“Không ai học JavaScript trong một ngày — nhưng nếu bạn kiên trì từng bước, bạn sẽ hiểu được sức mạnh thật sự của nó.”</p>
+          </blockquote>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <style>
+    /* Custom styles for article readability */
+    .single-blog p, .single-blog li {
+      font-size: 20px; /* Tăng kích thước chữ cho dễ đọc */
+      line-height: 1.7; /* Điều chỉnh chiều cao dòng */
+    }
+    .single-blog pre {
+      background-color: #f4f4f9; /* Màu nền cho khối mã */
+      border: 1px solid #ddd;   /* Thêm viền */
+      border-radius: 5px;       /* Bo tròn góc */
+      padding: 16px;            /* Thêm padding */
+      overflow-x: auto;         /* Cho phép cuộn ngang */
+    }
+    .single-blog pre code {
+      font-size: 17px; /* Kích thước chữ cho mã */
+    }
+  </style>
+
+    <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 order-1 order-lg-2 mx-auto">
+        <article class="single-blog">
+          <p class="title">JavaScript Async Programming</p>
+          <ul class="meta">
+            <li>By <a href="about.html">TRAN THINH</a></li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2024
+            </li>
+          </ul>
+          <img src="images/blog/JavaScript Async Programming.png">
+          <!-- 👉 Nên thay bằng ảnh minh họa về bất đồng bộ trong JS: Promise chain, async flow, hoặc event loop -->
+          <br><br>
+
+          <h3>Giới thiệu</h3>
+          <p>
+            <strong>JavaScript Async Programming</strong> là một trong những chủ đề quan trọng nhất trong lập trình web hiện đại.  
+            JavaScript là ngôn ngữ <strong>đơn luồng (single-threaded)</strong>, nghĩa là chỉ chạy một tác vụ tại một thời điểm.  
+            Vậy làm sao để xử lý nhiều công việc cùng lúc như tải dữ liệu, chờ phản hồi API mà không<strong>đóng băng</strong> trang web?  
+            Câu trả lời nằm ở cơ chế <strong>bất đồng bộ (asynchronous programming)</strong>.
+          </p>
+
+          <h3>1. Bất đồng bộ là gì?</h3>
+          <p>
+            Trong JavaScript, các tác vụ tốn thời gian như đọc file, truy cập API, hay chờ người dùng nhập liệu,  
+            thường được thực hiện theo cách bất đồng bộ – nghĩa là chương trình <strong>không chờ</strong> chúng hoàn tất mà tiếp tục thực thi phần còn lại.
+            <br><br>
+            Cơ chế này được quản lý bởi <strong>Event Loop</strong> – một vòng lặp theo dõi hàng đợi sự kiện (callback queue) và thực thi chúng khi luồng chính rảnh.
+          </p>
+          <br><br>
+          <img src="images/blog/js-event-loop.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ mô phỏng Event Loop (Call Stack, Web APIs, Callback Queue) -->
+          <br><br>
+
+          <p>
+            Nhờ cơ chế này, JavaScript có thể thực hiện nhiều tác vụ cùng lúc mà không bị <strong>đơ</strong> giao diện, giúp chương trình mượt mà và phản hồi nhanh hơn.
+          </p>
+
+          <blockquote>
+            <p>“JavaScript không làm mọi thứ cùng lúc – nó biết khi nào nên tạm dừng và khi nào nên tiếp tục.”</p>
+          </blockquote>
+
+          <h3>2. Callbacks – Cách tiếp cận ban đầu</h3>
+          <p>
+            <strong>Callback</strong> là hàm được truyền như đối số cho hàm khác, được gọi lại khi tác vụ hoàn tất.  
+            Đây là cách phổ biến để xử lý bất đồng bộ trong JavaScript trước khi <code>Promises</code> và <code>async/await</code> xuất hiện.
+          </p>
+          <pre><code class="language-javascript">function fetchData(callback) {
+            setTimeout(() => {
+                console.log("Dữ liệu đã sẵn sàng!");
+                callback();
+            }, 2000);
+            }
+
+            fetchData(() => {
+            console.log("Xử lý dữ liệu sau khi tải xong.");
+            });</code></pre>
+          <p>
+            Tuy nhiên, khi có nhiều callback lồng nhau, mã trở nên khó đọc và bảo trì — hiện tượng này gọi là <strong>“callback hell”</strong>.
+          </p>
+          <br><br>
+          <img src="images/blog/js-callback-hell.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng hình minh họa callback hell: các hàm lồng nhau nhiều tầng -->
+          <br><br>
+
+          <p>
+            Cơ chế này giúp lập trình viên dễ dàng thực hiện các thao tác nối tiếp nhau, tuy nhiên khi có nhiều callback lồng vào nhau — ví dụ khi cần tải nhiều dữ liệu hoặc xử lý theo chuỗi — mã sẽ trở nên khó đọc, khó bảo trì, và dễ sinh lỗi.
+          </p>
+
+          <h3>3. Promises – Giải pháp thay thế hiện đại</h3>
+          <p>
+            <strong>Promise</strong> ra đời để xử lý bất đồng bộ một cách mạch lạc hơn.  
+            Một Promise biểu diễn một giá trị có thể có ngay bây giờ, trong tương lai hoặc không bao giờ có.
+          </p>
+          <pre><code class="language-javascript">const getData = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                const success = true;
+                if (success) resolve("Tải dữ liệu thành công!");
+                else reject("Lỗi khi tải dữ liệu!");
+            }, 2000);
+            });
+
+            getData
+            .then(result => console.log(result))
+            .catch(error => console.error(error))
+            .finally(() => console.log("Hoàn tất!"));</code></pre>
+          <p>
+            Nhờ Promise, việc xử lý chuỗi bất đồng bộ trở nên rõ ràng, tránh lồng hàm và dễ debug hơn.
+          </p>
+
+          <h3>4. Async / Await – Cú pháp gọn gàng hơn</h3>
+          <p>
+            Cú pháp <strong>async/await</strong> (từ ES8) cho phép bạn viết code bất đồng bộ trông như đồng bộ.  
+            Từ khóa <code>await</code> tạm dừng hàm cho đến khi Promise hoàn tất, giúp mã dễ đọc hơn.
+          </p>
+          <pre><code class="language-javascript">async function fetchUser() {
+            try {
+              const response = await fetch("https://api.example.com/user");
+              const data = await response.json();
+              console.log("Người dùng:", data);
+            } catch (error) {
+              console.error("Lỗi:", error);
+            } finally {
+              console.log("Hoàn tất quá trình tải dữ liệu.");
+            }
+          }
+
+          fetchUser();</code></pre>
+          <p>
+            Như vậy, bạn có thể dùng <code>async/await</code> kết hợp <code>try...catch</code> để quản lý lỗi tự nhiên như khi viết mã đồng bộ.
+          </p>
+
+          <h3>5. Promise.all & Promise.race</h3>
+          <p>
+            Khi bạn cần xử lý nhiều Promise cùng lúc (ví dụ tải nhiều API),  
+            các phương thức như <code>Promise.all()</code> và <code>Promise.race()</code> giúp quản lý hiệu quả hơn.
+          </p>
+          <pre><code class="language-javascript">const api1 = fetch("https://api.example.com/posts");
+              const api2 = fetch("https://api.example.com/comments");
+
+              Promise.all([api1, api2])
+                .then(results => console.log("Tất cả API đã phản hồi:", results))
+                .catch(err => console.error("Có lỗi xảy ra:", err));</code></pre>
+          <p>
+            👉 <code>Promise.all()</code> đợi tất cả hoàn tất,  
+            trong khi <code>Promise.race()</code> trả kết quả của Promise hoàn thành đầu tiên.
+          </p>
+
+          <h3>6. Tổng quan chu trình bất đồng bộ</h3>
+          <p>
+            Một vòng đời của tác vụ bất đồng bộ trong JS có thể mô tả như sau:
+          </p>
+          <ul>
+            <li><strong>1.</strong> Tác vụ được gửi tới Web API (ví dụ: setTimeout, fetch).</li>
+            <li><strong>2.</strong> Khi hoàn tất, callback được đưa vào hàng đợi (Callback Queue).</li>
+            <li><strong>3.</strong> Event Loop kiểm tra Stack trống → đẩy callback vào thực thi.</li>
+          </ul>
+          <br><br>
+          <img src="images/blog/js-async-flow.png" style="display:block; margin:0 auto;">
+          <!-- 👉 Nên thay bằng sơ đồ thể hiện chu trình bất đồng bộ: Stack, Queue, Web APIs -->
+          <br><br>
+
+          <p>
+            JavaScript hoạt động theo mô hình đơn luồng <strong>single-threaded</strong>, tức là tại một thời điểm chỉ có thể xử lý một tác vụ trong Call Stack. 
+            Tuy nhiên, nhờ cơ chế bất đồng bộ, các tác vụ như setTimeout, fetch, hay xử lý sự kiện <strong>(event listener)</strong> có thể được giao cho Web APIs để thực hiện song song, trong khi luồng chính vẫn tiếp tục chạy các đoạn mã khác.
+          </p>
+
+          <strong>
+            Cụ thể, quá trình diễn ra như sau:
+          </strong>
+
+          <p>
+            <li><strong>1.</strong> Khi một hàm bất đồng bộ được gọi (ví dụ <code>setTimeout(sum, 2000)</code>), nó được gửi đến Web API. Web API chịu trách nhiệm xử lý tác vụ này trong nền.</li><br><br>
+            <li><strong>2.</strong> Sau khi tác vụ hoàn tất (ví dụ hết thời gian chờ), callback tương ứng (ở đây là <code>sum()</code>) sẽ được đưa vào <code>Event Queue</code> (hàng đợi sự kiện).</li><br><br>
+            <li><strong>3.</strong> Event Loop liên tục kiểm tra <code>Call Stack</code> — nếu Stack trống, nó sẽ lấy callback từ Event Queue và đẩy vào Stack để thực thi.</li><br>
+          </p>
+
+          <p>
+            Quá trình này giúp JavaScript có thể xử lý đồng thời nhiều tác vụ mà không bị<strong>đóng băng</strong> giao diện người dùng hoặc dừng chương trình.
+          </p>
+
+          <blockquote>
+            <p>“Async programming biến JavaScript từ ngôn ngữ chậm rãi thành công cụ mạnh mẽ cho web hiện đại.”</p>
+          </blockquote>
+
+          <h3>7. Tổng kết</h3>
+          <p>
+            Hiểu rõ <strong>Callbacks</strong>, <strong>Promises</strong> và <strong>Async/Await</strong> giúp bạn viết mã dễ đọc, hiệu quả và tránh lỗi phổ biến trong xử lý bất đồng bộ.  
+            <br><br>
+            👉 Hãy thử viết một hàm gọi API thật, hiển thị dữ liệu và xử lý lỗi để cảm nhận sự khác biệt giữa callback và async/await.
+          </p>
+
+          <blockquote>
+            <p>“Async/Await – cú pháp khiến JavaScript bất đồng bộ trở nên dễ hiểu và thân thiện hơn bao giờ hết.”</p>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="instagram">
+<a href="#" style="color: #fff; text-decoration: none;">
+  <i class="fa fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+  <span style="color: #fff;">@truongthinh2k04</span>
+</a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </li>            
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>

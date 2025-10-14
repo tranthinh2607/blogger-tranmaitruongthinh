@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR.THINH | Personal Blog</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Theme Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <!-- Font tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+  <style>
+    /* Font mặc định cho toàn bộ trang */
+    body, p, h1, h2, h3, h4, h5, h6, a, li, span {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      line-height: 1.8;
+      letter-spacing: 0.25px;
+      color: #222;
+      font-weight: 400;
+    }
+
+    /* Tiêu đề chính & phụ */
+    h1, h2, h3 {
+      font-weight: 700;
+      color: #0b3d91;
+      letter-spacing: 0.5px;
+    }
+
+    /* Đoạn văn in đậm */
+    strong, b {
+      font-weight: 600;
+      color: #111;
+    }
+
+    /* Trích dẫn */
+    blockquote p {
+      font-style: italic;
+      color: #333;
+      font-weight: 500;
+      background: #f3f6fa;
+      border-left: 4px solid #0077b5;
+      padding: 12px 18px;
+      border-radius: 6px;
+    }
+
+    /* Liên kết */
+    a {
+      color: #0077b5;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005b8c;
+      text-decoration: underline;
+    }
+
+    /* Caption hình ảnh */
+    .caption {
+      font-style: italic;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* Làm nổi bật từ khóa chính trong mô tả */
+    .about-text strong {
+      color: #0077b5;
+    }
+
+    /* Tăng độ tương phản cho phần heading trong đoạn */
+    .about-text h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #003366;
+    }
+
+    /* Giúp văn bản dễ đọc hơn trên màn hình lớn */
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+<!-- Navbar Start -->
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img class="logo-main" src="images/logo2.png" alt="logo" />
+    </a>
+    <!-- Toogle Button -->
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <!-- Social Link -->
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa-brands fa-youtube-play"></i></a>
+        </li>                
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+.profile-wrapper {
+  position: relative;
+}
+.circle-bg {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #00bcd4, #3f51b5);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  filter: blur(30px);
+}
+.main-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  transition: transform 0.4s ease;
+}
+.main-photo:hover {
+  transform: scale(1.05);
+}
+.floating-shape {
+  position: absolute;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+.shape-1 { width: 30px; height: 30px; top: 0; left: 15%; animation-delay: 0s; }
+.shape-2 { width: 40px; height: 40px; bottom: 0; right: 10%; animation-delay: 2s; }
+.shape-3 { width: 25px; height: 25px; bottom: 10%; left: 30%; animation-delay: 4s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); opacity: 0.8; }
+  50% { transform: translateY(-15px); opacity: 1; }
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+  transform: scale(1.03);
+  transition: all 0.4s ease;
+}
+.hover-zoom {
+  transition: transform 0.4s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.caption {
+  font-style: italic;
+  margin-top: 10px;
+  color: #555;
+}
+.social-links .social-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.facebook { background: #3b5998; }
+.linkedin { background: #0077b5; }
+.instagram { background: #e4405f; }
+.youtube { background: #ff0000; }
+.tiktok { background: #000; }
+.coursera { background: #0056d2; }
+
+</style>
+
+<!-- Navbar End -->
+
+<section class="about py-5">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+      
+<div class="col-lg-5 text-center mb-5 mb-lg-0 position-relative">
+  <div class="profile-wrapper position-relative d-inline-block">
+    <!-- Nền phát sáng phía sau ảnh -->
+    <div class="circle-bg"></div>
+
+    <!-- Ảnh chân dung 2x3 bo góc nhẹ -->
+    <img src="images/about/thinh-portrait.jpg" 
+         alt="Tran Mai Truong Thinh portrait" 
+         class="img-fluid main-photo shadow-lg">
+
+  </div>
+</div>
+
+<!-- CSS nội tuyến cho phần ảnh (thêm vào trong <style> hoặc file style.css) -->
+<style>
+.profile-wrapper {
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.circle-bg {
+  width: 280px;
+  height: 380px;
+  background: linear-gradient(135deg, #00bcd4, #3f51b5);
+  border-radius: 20px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  filter: blur(35px);
+  opacity: 0.7;
+}
+
+.main-photo {
+  width: 450px;
+  height: 550px; /* Tỷ lệ 2x3 */
+  object-fit: cover;
+  border-radius: 20px; /* Bo góc nhẹ */
+  border: 5px solid #fff;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.main-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 188, 212, 0.5);
+}
+
+.shape-1 { width: 30px; height: 30px; top: -10px; left: 10%; animation-delay: 0s; }
+.shape-2 { width: 40px; height: 40px; bottom: -15px; right: 10%; animation-delay: 2s; }
+.shape-3 { width: 25px; height: 25px; bottom: 10%; left: 30%; animation-delay: 4s; }
+
+/* Hiệu ứng di chuyển nhẹ nhàng */
+@keyframes float {
+  0%, 100% { transform: translateY(0); opacity: 0.8; }
+  50% { transform: translateY(-15px); opacity: 1; }
+}
+
+/* Hiệu ứng fade-in khi cuộn đến */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+      <!-- Giới thiệu -->
+      <div class="col-lg-7">
+        <div class="about-text">
+          <h3 class="mb-3 fw-bold">Xin chào! Mình là <span style="color:#0077b5;">Trần Mai Trường Thịnh (Kelvin Trần)</span></h3>
+          <p>
+            Mình sinh ngày <strong>26/07/2004</strong> tại Thành phố Hồ Chí Minh – nơi mình lớn lên cùng niềm đam mê công nghệ. 
+            Ngay từ nhỏ, mình đã thích mày mò tháo lắp các thiết bị điện tử, chỉ để xem “bên trong hoạt động như thế nào”. 
+            Khi đó mình chưa biết, chính sự tò mò ấy đã đặt nền móng cho con đường lập trình sau này.
+          </p>
+          <p>
+            Những năm cấp 2, mình lần đầu tiếp xúc với máy tính ở trường – từ việc gõ văn bản, vẽ hình cho đến cài phần mềm. 
+            Niềm hứng thú ngày càng lớn, mình bắt đầu học cách khắc phục lỗi máy, giúp bạn bè, và cảm thấy tự tin hơn mỗi khi giải được một vấn đề.
+          </p>
+          <p>
+            Lên cấp 3, mình học lập trình bằng <strong>Pascal</strong> và <strong>C++</strong> – nơi mình khám phá ra niềm vui khi nhìn chương trình “chạy đúng”. 
+            Từng dòng lệnh khiến mình nhận ra rằng lập trình không chỉ là ngôn ngữ của máy, mà là cách con người biến ý tưởng thành hiện thực.
+          </p>
+          <p>
+            Mình tin rằng hành trình học công nghệ là một quá trình dài, không có điểm dừng. 
+            Vì vậy, mình luôn cố gắng học hỏi thêm mỗi ngày, không chỉ từ sách vở mà còn từ những người xung quanh, 
+            từ những dự án nhỏ đến những lỗi sai lớn bởi vì mỗi trải nghiệm đều giúp mình trưởng thành hơn.
+          </p>
+        </div>
+      </div>
+      <br><br>
+
+      <!-- Ảnh minh họa song song -->
+      <div class="image-showcase my-5 d-flex flex-wrap justify-content-center gap-4">
+
+        <!-- Ảnh minh họa đầu tiên -->
+        <div class="image-card shadow-sm p-4 rounded text-center" 
+            style="background:#fafafa; border-radius:16px; max-width:600px; flex:1 1 500px;">
+          <img src="images/about/school-lab.jpg" 
+              alt="Học tin học ở trường" 
+              class="img-fluid hover-glow" 
+              style="max-width:100%; border-radius:12px; display:block; margin:0 auto;">
+          <p class="caption mt-4" style="font-size:16px; color:#444; line-height:1.7; text-align:justify;">
+            <strong style="display:block; text-align:center; margin-bottom:8px;">
+              Khoảnh khắc đầu tiên mình được ngồi trước máy tính và cảm nhận về công nghệ.
+            </strong>
+            Hồi đó, chiếc máy tính trong phòng tin học cũ kỹ, màn hình hơi mờ và chạy chậm, 
+            nhưng đối với mình, đó là cả một vũ trụ mới.  
+            Mình nhớ rõ cảm giác lần đầu di chuyển con trỏ chuột, gõ những ký tự đầu tiên trên bàn phím, 
+            rồi nhìn thấy dòng chữ hiện lên trên màn hình — đơn giản nhưng lại khiến mình vô cùng phấn khích.  
+            <br><br>
+            Từ khoảnh khắc ấy, mình bắt đầu tò mò về cách mà chiếc máy này hoạt động. 
+            Làm sao mà một thiết bị có thể “hiểu” được lệnh của con người?  
+            Làm sao những con số, ký tự và hình ảnh lại có thể tạo nên một thế giới sống động như vậy?  
+            Những câu hỏi ấy cứ quanh quẩn trong đầu, và chính nó đã gieo vào mình niềm đam mê với công nghệ từ rất sớm.
+          </p>
+        </div>
+
+        <!-- Ảnh minh họa thứ hai -->
+        <div class="image-card shadow-sm p-4 rounded text-center" 
+            style="background:#fafafa; border-radius:16px; max-width:600px; flex:1 1 500px;">
+          <img src="images/about/tech-conference.jpg" 
+              alt="Tham gia hội thảo công nghệ đầu tiên" 
+              class="img-fluid hover-glow" 
+              style="max-width:100%; border-radius:12px; display:block; margin:0 auto;">
+
+          <p class="caption mt-4" style="font-size:16px; color:#444; line-height:1.7; text-align:justify;">
+            <strong style="display:block; text-align:center; margin-bottom:8px;">
+              Những ngày đầu tiên tham gia các hội thảo về công nghệ.
+            </strong>
+            Khi bắt đầu bước vào giảng đường đại học, mình có cơ hội được tham gia những buổi 
+            <strong>hội thảo công nghệ</strong> đầu tiên — nơi quy tụ những người có chung đam mê, 
+            các chuyên gia đầu ngành, và cả những sinh viên đầy nhiệt huyết giống mình.  
+            <br><br>
+            Mình vẫn nhớ cảm giác choáng ngợp khi nghe các diễn giả nói về 
+            <strong>AI, Blockchain, và xu hướng lập trình hiện đại</strong>.  
+            Mỗi bài chia sẻ đều mở ra cho mình một cánh cửa mới, giúp mình hiểu rằng thế giới công nghệ 
+            rộng lớn và thay đổi từng ngày.  
+            <br><br>
+            Mình bắt đầu ghi chép mọi điều hay ho, đặt câu hỏi, và dần dần tự tin đứng lên trao đổi với diễn giả.  
+            Những buổi hội thảo đó không chỉ giúp mình học hỏi kiến thức mới, 
+            mà còn rèn luyện khả năng giao tiếp, tư duy phản biện, và tinh thần chủ động học tập.  
+            <br><br>
+            Sau mỗi lần tham dự, mình đều cảm thấy tràn đầy năng lượng và khát khao tạo ra thứ gì đó thật sự có ích.  
+            Dần dần, mình tham gia nhiều hơn — từ các buổi meetup nhỏ đến những sự kiện lớn của trường và cộng đồng lập trình viên.  
+            <br><br>
+            <em>Với mình, mỗi hội thảo là một bước tiến nhỏ, 
+            không chỉ về kiến thức mà còn về sự trưởng thành — cả trong tư duy và cách mình nhìn nhận về công nghệ.</em>
+          </p>
+        </div>
+
+
+      </div>
+
+
+      <!-- Phần học đại học -->
+      <div class="row align-items-center mb-5 flex-column-reverse flex-lg-row">
+        <div class="col-lg-7">
+          <div class="about-text">
+            <h3 class="fw-bold">Hành Trình Tại Đại học</h3>
+
+            <p>
+              Hiện tại mình đang là sinh viên ngành <strong>Công nghệ Thông tin</strong> tại 
+              <strong>Đại học Công nghệ TP.HCM (HUTECH)</strong> — một trong những ngôi trường năng động và sáng tạo nhất mà mình từng biết. 
+              Đây là nơi mình thực sự được sống cùng đam mê, không chỉ học lý thuyết mà còn được trực tiếp trải nghiệm, 
+              thực hành và làm việc trong môi trường công nghệ hiện đại.
+            </p>
+
+            <p>
+              Lý do mình chọn ngành này đến từ sự tò mò về cách mà thế giới vận hành phía sau những ứng dụng, 
+              website và hệ thống mà chúng ta sử dụng hằng ngày. 
+              Mình luôn thắc mắc: “Làm sao một ứng dụng nhỏ lại có thể giúp hàng triệu người trên thế giới kết nối với nhau?” 
+              Và rồi mình nhận ra rằng, đằng sau mọi công nghệ đều là những con người đang âm thầm viết nên tương lai — 
+              và mình muốn trở thành một trong số đó.
+            </p>
+
+            <p>
+              Trong suốt thời gian học tại HUTECH, mình được học rất nhiều môn học thú vị như 
+              <strong>Lập trình hướng đối tượng, Cơ sở dữ liệu, Mạng máy tính, An toàn thông tin, Phân tích thiết kế hệ thống</strong> 
+              và gần đây là những môn chuyên sâu về <strong>Trí tuệ nhân tạo và Phát triển Web</strong>.  
+              Những môn học này giúp mình không chỉ hiểu cách máy tính “nghĩ” và “hành động”, 
+              mà còn dạy mình cách giải quyết vấn đề theo hướng logic, sáng tạo và hiệu quả.
+            </p>
+
+            <p>
+              Ngoài giờ học, mình tích cực tham gia vào các hoạt động và dự án nhóm: từ làm 
+              <em>website quản lý công việc</em>, <em>ứng dụng học tập trực tuyến</em>, cho đến 
+              <em>dự án nghiên cứu về mã hóa dữ liệu trên cơ sở dữ liệu MySQL</em>.  
+              Những trải nghiệm ấy giúp mình rèn luyện kỹ năng làm việc nhóm, quản lý thời gian, 
+              và đặc biệt là khả năng giao tiếp trong môi trường chuyên nghiệp — yếu tố rất quan trọng đối với một lập trình viên.
+            </p>
+
+            <p>
+              Bên cạnh đó, mình còn yêu thích việc tham gia <strong>các hội thảo công nghệ, workshop và hackathon</strong>.  
+              Ở đó, mình được gặp gỡ nhiều anh chị có kinh nghiệm trong ngành, được truyền cảm hứng và học hỏi thêm những xu hướng mới.  
+              Chính nhờ những cơ hội đó mà mình hiểu rõ hơn về định hướng tương lai: trở thành một 
+              <strong>Software Engineer chuyên về Web và AI ứng dụng</strong> — người không chỉ viết code, 
+              mà còn xây dựng giải pháp thực tế mang lại giá trị cho cộng đồng.
+            </p>
+
+            <p>
+              Mình tin rằng hành trình học công nghệ là một quá trình không ngừng tiến hóa. 
+              Mỗi dòng code mình viết, mỗi bài học mình học, mỗi dự án mình thực hiện — tất cả đều góp phần định hình con người mình hôm nay.  
+              Đối với mình, <em>công nghệ không chỉ là công cụ, mà là ngôn ngữ để tạo ra những thay đổi tích cực cho thế giới</em>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cột ảnh bên phải -->
+        <div class="col-lg-5 text-center mb-4 mb-lg-0">
+          <div class="d-flex flex-column align-items-center" style="gap: 40px;">
+
+            <!-- Ảnh 1 -->
+            <div class="floating-photo" style="margin-bottom: 10px;">
+              <img src="images/about/hoc tap1.jpg" 
+                  alt="Tham gia hội thảo công nghệ tại HUTECH" 
+                  class="img-fluid rounded shadow-lg hover-glow" 
+                  style="border-radius:14px; width:100%; max-width:420px; transition:transform 0.3s ease, box-shadow 0.3s ease;">
+            </div>
+
+            <!-- Ảnh 2 -->
+            <div class="floating-photo" style="margin-bottom: 10px;">
+              <img src="images/about/hoc tap2.jpg" 
+                  alt="Làm việc trong phòng lab HUTECH" 
+                  class="img-fluid rounded shadow-lg hover-glow" 
+                  style="border-radius:14px; width:100%; max-width:420px; transition:transform 0.3s ease, box-shadow 0.3s ease;">
+            </div>
+
+            <!-- Ảnh 3 -->
+            <div class="floating-photo" style="margin-bottom: 10px;">
+              <img src="images/about/hoc tap3.jpg" 
+                  alt="Tham gia dự án nhóm tại trường" 
+                  class="img-fluid rounded shadow-lg hover-glow" 
+                  style="border-radius:14px; width:100%; max-width:420px; transition:transform 0.3s ease, box-shadow 0.3s ease;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Ảnh minh họa góc học tập -->
+      <div class="image-grid my-5">
+        <div class="grid-item">
+          <img src="images/about/study-setup.png" alt="Góc học tập" class="img-fluid rounded hover-zoom shadow">
+        </div>
+        <div class="grid-item">
+          <img src="images/about/future-vision.jpg" alt="Tầm nhìn tương lai" class="img-fluid rounded hover-zoom shadow">
+        </div>
+      </div>
+
+      <!-- Mục tiêu -->
+      <div class="row my-5 d-flex align-items-center flex-column-reverse flex-lg-row">
+
+        <!-- Cột ảnh (bên trái trên PC) -->
+        <div class="col-lg-5 d-flex justify-content-center align-items-center mb-4 mb-lg-0 text-center">
+          <div class="goal-image-column">
+            <div class="goal-image-wrapper">
+              <img src="images/about/tech-conference.png" 
+                  alt="Tầm nhìn tương lai" 
+                  class="img-fluid rounded shadow-lg hover-glow"
+                  style="border-radius:18px; width:90%; height:auto; display:block; margin:0 auto;">
+            </div>
+          </div>
+        </div>
+
+        <!-- Cột nội dung (bên phải trên PC) -->
+        <div class="col-lg-7 d-flex align-items-center">
+          <div class="about-text ps-lg-4">
+            <h3 class="fw-bold mb-4" style="color:#0b3d91;">Mục Tiêu &amp; Tương Lai</h3>
+
+            <p>
+              Trong tương lai, mình mong muốn trở thành một <strong>Kỹ sư Phần mềm</strong> có khả năng kết hợp giữa 
+              <strong>lập trình, trí tuệ nhân tạo (AI)</strong> và <strong>giá trị con người</strong>.  
+              Đối với mình, công nghệ không chỉ là công cụ để giải quyết vấn đề, mà còn là cầu nối giúp con người học hỏi, kết nối và phát triển bản thân.
+            </p>
+
+            <p>
+              Mình đặc biệt quan tâm đến việc ứng dụng <strong>AI trong giáo dục</strong> – nơi mà tri thức được truyền đạt một cách thông minh, 
+              cá nhân hóa theo từng người học.  
+              Mình tin rằng với công nghệ, chúng ta có thể xây dựng một môi trường học tập linh hoạt, giúp mọi người tiếp cận kiến thức dễ dàng hơn, 
+              dù họ là ai và đến từ đâu.
+            </p>
+
+            <p>
+              Ngoài ra, mình cũng hướng tới việc trở thành một người <strong>có ảnh hưởng tích cực trong cộng đồng lập trình</strong> – 
+              chia sẻ kiến thức, kinh nghiệm và cảm hứng cho những bạn trẻ có cùng đam mê.  
+              Bởi mình tin rằng khi chúng ta chia sẻ, chúng ta không mất đi gì cả – ngược lại, kiến thức và giá trị ấy sẽ được nhân đôi.
+            </p>
+
+            <p>
+              Về lâu dài, mình hy vọng có thể tham gia hoặc sáng lập các dự án hướng đến phát triển bền vững – 
+              những sản phẩm công nghệ không chỉ phục vụ doanh nghiệp, mà còn giúp cải thiện chất lượng cuộc sống, bảo vệ môi trường 
+              và đóng góp vào sự tiến bộ của xã hội.
+            </p>
+
+            <blockquote style="font-style:italic; color:#444; border-left:4px solid #0077b5; padding:10px 16px; background:#f8f9fa; border-radius:6px;">
+              “Mình không muốn chỉ là người viết code, mà là người dùng công nghệ để tạo ra sự thay đổi tích cực cho con người và thế giới.”
+            </blockquote>
+
+            <p>
+              Hành trình phía trước chắc chắn còn nhiều thử thách, nhưng mình tin rằng với sự kiên trì, lòng đam mê và tinh thần cầu tiến, 
+              mình sẽ từng bước đạt được những mục tiêu ấy.  
+              Mỗi ngày là một cơ hội để mình học thêm điều mới, rèn luyện bản thân, và tiến gần hơn đến phiên bản tốt nhất của chính mình.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Banner -->
+      <div class="banner-wrapper text-center my-5 position-relative">
+        <img src="images/about/banner.png" alt="About Banner" class="img-fluid rounded shadow-lg hover-glow">
+      </div>
+
+
+      <!-- Mạng xã hội -->
+      <div style="display:flex; justify-content:center; align-items:center; width:100%; margin-top:20px;">
+        <ul style="list-style:none; display:flex; flex-wrap:wrap; justify-content:center; 
+                  gap:12px; padding:0; margin:0;">
+                    
+          <li>
+            <a href="https://www.facebook.com/tmtthinh204/" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#3b5998; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa-brands fa-facebook-f"></i>&nbsp; Facebook
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#0056d2; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa fa-graduation-cap"></i>&nbsp; Coursera
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#e4405f; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa-brands fa-instagram"></i>&nbsp; Instagram
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#0077b5; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa-brands fa-linkedin-in"></i>&nbsp; LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#ff0000; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa-brands fa-youtube"></i>&nbsp; YouTube
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.tiktok.com/@kelvintran26704" target="_blank"
+              style="display:inline-flex; align-items:center; justify-content:center;
+                    width:120px; height:40px; background:#0691a6; color:#fff;
+                    text-decoration:none; font-size:15px; border-radius:8px;
+                    transition:all 0.3s ease;">
+              <i class="fa-brands fa-tiktok"></i>&nbsp; TikTok
+            </a>
+          </li>
+        </ul>
+      </div>
+
+  </div>
+</section>
+
+<section class="instagram">
+
+  <a href="about.html" style="color: #fff; text-decoration: none;">
+    <i class="fa-brands fa-instagram" aria-hidden="true" style="color: #fff; margin-right: 6px;"></i>
+    <span style="color: #fff;">@truongthinh2k04</span>
+  </a>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+          <div class="instagram-item-thum">
+            <img src="images/blog/1.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/2.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/3.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/4.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/5.jpg" alt="image">
+          </div>
+          <div class="instagram-item-thum">
+            <img src="images/blog/6.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/tmtthinh204/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.coursera.org/user/72efd238fc6d6f0feb0e9f3022c3d283" target="_blank"><img src="images/coursera-logo.png" alt="Coursera Logo" style="width: 12px; height: 12px;"></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/truongthinh2k04/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tr%E1%BA%A7n-th%E1%BB%8Bnh/" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" style="width: 14px; height: 14px;"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@Kelvin_Tran267" target="_blank"><i class="fa-brands fa-youtube-play"></i></a>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright <span id="copyrightYear"></span> - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> Distributed By <a href="about.html" target="blank">TRAN MAI TRUONG THINH</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry">
+</script>
+<!-- Vendor JS -->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/g-map/gmap.js"></script>
+<!-- Main JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>
